@@ -1,0 +1,64 @@
+{
+ "slug": "why-the-first-two-ideas-were-retired",
+ "title": "Why the first two ideas were retired",
+ "description": "The research started with Bitcoin lead–lag at second scale, then with cost-aware delayed entries. Both were retired, and both set the standard the later work had to meet.",
+ "status": "failed",
+ "tags": [
+  "v001",
+  "v002",
+  "retired"
+ ],
+ "publishedAt": "2026-10-21T18:02:23.417Z",
+ "updatedAt": "2026-11-03T08:21:49.645Z",
+ "body": "Crosswake's research began with two ideas about Bitcoin and altcoins, both of which were retired rather than retuned. Those retirements were not discarded history; they established the standard that later work had to meet. This note explains why each idea failed, what measurement showed, and what rule the record now applies.\n\n## Idea 001: Bitcoin lead–lag at second scale\n\nThe first idea assumed that altcoins would follow Bitcoin after a short delay, measured at second scale. The rule was simple in form: observe a Bitcoin move, expect an altcoin response, and act within that delay. The measurement showed that altcoins react to Bitcoin within seconds. That reaction is far too fast for a person to act on. The cause of failure was not that the relationship was absent, but that the exploitable window closed before human execution could occur. Because the idea could not be acted on by a person, it was retired rather than adjusted. Its frozen protocol remains in the repository.\n\n## Idea 002: cost-aware delayed entries\n\nThe second idea changed the timing. It proposed waiting for a move, then entering only if the forecast still cleared trading costs. The rule added a cost gate to delayed entry, intended to keep only signals with enough expected edge after expenses. The measurement showed that once real costs were counted, no tradable signals remained at all. The cause of failure was that the apparent opportunity disappeared under honest cost accounting. The strategy had looked viable only before costs were included. Because no signal survived that test, the idea was retired rather than retuned. Its frozen protocol also remains in the repository.\n\n## The lesson the record drew\n\nThe central lesson is that a strategy that only works before costs has not worked. Idea 001 failed because the market moved faster than a person could act. Idea 002 failed because counting costs honestly removed every signal it produced. Together, the two failures set a stricter standard: an idea must survive both human feasibility and real cost accounting. Neither failure was treated as a partial success or a reason to keep searching within the same frame. Both were retired, and the research moved to slower timeframes.\n\n## What this means for later work\n\nLater work inherited the record from these two retirements. It had to show that a signal could be acted on by a person and that it remained after real costs. The frozen protocols are still in the repository as evidence of where the research started and why it changed direction. They are not presented as hidden opportunities or unfinished edges. They are retired ideas, kept visible so the standard they established remains explicit.",
+ "evidence": [
+  {
+   "label": "v001 idea",
+   "value": "Altcoins were expected to follow Bitcoin after a short delay, at second scale."
+  },
+  {
+   "label": "v001 finding",
+   "value": "Altcoins react to Bitcoin within seconds, which is far too fast for a person to act on."
+  },
+  {
+   "label": "v002 idea",
+   "value": "Wait for a move, then enter only if the forecast still cleared trading costs."
+  },
+  {
+   "label": "v002 finding",
+   "value": "Once real costs were counted, no tradable signals remained at all."
+  },
+  {
+   "label": "Lesson",
+   "value": "A strategy that only works before costs has not worked."
+  },
+  {
+   "label": "Record",
+   "value": "Both were retired rather than retuned, and the research moved to slower timeframes. Their frozen protocols are still in the repository."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "ad9ec993cdb42671",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

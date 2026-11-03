@@ -1,0 +1,88 @@
+{
+ "slug": "why-shorting-the-strongest-coins-failed",
+ "title": "Why shorting the strongest coins failed",
+ "description": "v004 shorted altcoins that held up while Bitcoin fell, betting they would catch down. Across 349 unseen trades it lost 0.46% each.",
+ "status": "failed",
+ "tags": [
+  "v004",
+  "shorts",
+  "futures"
+ ],
+ "publishedAt": "2026-10-20T17:49:47.386Z",
+ "updatedAt": "2026-11-03T08:20:43.469Z",
+ "body": "v004 shorted altcoins that held up while Bitcoin fell, betting they would catch down. Across 349 unseen trades it lost 0.46% each.\n\n## A bet on lagging coins\n\nThe premise was simple: when Bitcoin falls and an altcoin holds up, that coin is lagging and should catch down. v004 turned that premise into a short trade. It shorted altcoins that held up while Bitcoin fell, betting that relative strength during a Bitcoin fall was temporary. The trade was therefore a bet on lag, not on a standalone directional view. A coin that holds up while Bitcoin falls can look strong for reasons other than lag, but v004 treated that strength as a delay. The premise assumed that holding up during a Bitcoin fall was a sign of delayed selling rather than genuine relative demand. v004 did not test that assumption separately; it embedded it in the short entry. The unseen test is the main evidence because it sits outside the design sample. It covered 349 trades and lost 0.46% net per trade after costs. Costs were 16 bps per round trip on futures, so the loss is net of a stated trading cost. The 8 live paper trades averaged −0.84%. That paper run was small, but it also lost, and it lost more than the unseen average.\n\n## Direction was already priced\n\nThe direction problem explains why the signal looked strongest at the worst time. The correlation between Bitcoin's move and the trade's gross return was −0.72. Signals were generated exactly when Bitcoin fell, which is when the trade looked best on paper. That means the Bitcoin fall both created the signal and flattered the gross return. The signal and the Bitcoin move are not independent; the signal appears at the moment of the Bitcoin fall. That timing matters because a backtest can make a signal look good by evaluating it at the same moment the market event occurs. A 37-day replay produced 127 trades at +0.8 bps per trade, with a 95% confidence interval of −42 to +43 bps. The interval is wide enough to include no edge, and it is not a narrow estimate of a small edge; it is an estimate that cannot distinguish edge from noise. Allowing both directions produced 244 trades at +1.5 bps per trade, profit factor 1.02. Neither replay clears the 16 bps cost hurdle. The gross direction was therefore not a reliable source of edge; it was largely the Bitcoin move already in price.\n\n## Smaller targets were not cheaper\n\nHalving the target made it worse. The short-only replay had 144 trades at −3.1 bps. Allowing both directions had 291 trades at −7.3 bps. Both are below the 16 bps cost hurdle and worse than the baseline replay at +0.8 bps. Smaller targets did not reduce the cost of being wrong. They increased the number of marginal exits while leaving the same adverse selection. The both-direction version added trades in the opposite direction, but it did not add edge; it added more negative bps. The result is not merely lower average bps; it is more trades in a region where costs dominate. A target change is a parameter tweak, and this parameter tweak failed.\n\n## Hedging cost more than the exposure\n\nHedging the Bitcoin exposure cost more than it saved: −24.8 bps per trade. The hedge removed part of the Bitcoin-linked move, but the cost of carrying and adjusting it exceeded the benefit. A hedge can remove market exposure, but it also adds spread, funding, and adjustment costs. Here those costs were larger than the protection. −24.8 bps per trade is larger than the 16 bps base cost, so the hedge alone consumed more than a full round trip. The hedge cost is also stated per trade, so it compounds with the base futures cost rather than replacing it. After paying for the hedge, the remaining trade still had to produce enough gross return to cover 16 bps on futures. It did not. The hedge therefore turned a direction problem into a cost problem without fixing the underlying lag bet.\n\n## Diagnosis and what a successor needs\n\nStop clustering shows how the losses arrived. Stop-outs carried by a Bitcoin impulse cost 1069 bps inside a run that lost 295 bps in total. That means a large share of the damage came from correlated stop-outs, not from many small independent errors. Correlated stops are dangerous because they arrive together, when liquidity and price movement are already stressed. Forecast quality shows the same problem from the model side: the engine's own expected edge was negatively correlated with realised net at −0.32, so the trades it liked most were not the better trades. An expected edge that is negatively correlated with realised net means the ranking of trades is inverted: the model's confidence is a warning sign, not a filter. Together, these findings point to a regime and timing issue, not a size issue. The diagnosis is therefore about when the lag resolves and whether the state is stable enough to treat the lag as temporary. Every variant fails the 16 bps cost hurdle. A successor needs a stationarity gate and an exit that matches the lag horizon, not a retune.",
+ "evidence": [
+  {
+   "label": "Premise",
+   "value": "When Bitcoin falls and an altcoin holds up, that coin is lagging and should catch down."
+  },
+  {
+   "label": "Unseen test",
+   "value": "349 trades at −0.46% net per trade after costs."
+  },
+  {
+   "label": "Costs",
+   "value": "16 bps per round trip on futures."
+  },
+  {
+   "label": "Live paper",
+   "value": "The first 8 live paper trades averaged −0.84%."
+  },
+  {
+   "label": "Direction problem",
+   "value": "The correlation between Bitcoin's move and the trade's gross return was −0.72. The signals were generated exactly when Bitcoin fell, which is when the trade looked best on paper."
+  },
+  {
+   "label": "Replay baseline",
+   "value": "A 37-day replay produced 127 trades at +0.8 bps per trade, with a 95% confidence interval of −42 to +43 bps. The interval includes zero."
+  },
+  {
+   "label": "Two-sided replay",
+   "value": "Allowing both directions produced 244 trades at +1.5 bps per trade, profit factor 1.02."
+  },
+  {
+   "label": "Smaller targets",
+   "value": "Halving the target made it worse: 144 short-only trades at −3.1 bps, and 291 two-sided trades at −7.3 bps."
+  },
+  {
+   "label": "Hedging",
+   "value": "Hedging the Bitcoin exposure cost more than it saved: −24.8 bps per trade."
+  },
+  {
+   "label": "Stop clustering",
+   "value": "Two stop-outs carried by one Bitcoin impulse cost 1069 bps inside a run that lost 295 bps in total."
+  },
+  {
+   "label": "Forecast quality",
+   "value": "The engine's own expected edge was negatively correlated with realised net at −0.32, so the trades it liked most were not the better trades."
+  },
+  {
+   "label": "Verdict",
+   "value": "Every variant fails the 16 bps cost hurdle. A successor needs a stationarity gate and an exit that matches the lag horizon, not a retune."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "fb500e8f4d9e5cd4",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

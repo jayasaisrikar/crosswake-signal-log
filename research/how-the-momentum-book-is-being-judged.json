@@ -1,0 +1,80 @@
+{
+ "slug": "how-the-momentum-book-is-being-judged",
+ "title": "How the momentum book is being judged",
+ "description": "v008 runs two halves on 37 futures and cannot be fairly backtested, because its rules were developed on data that had already seen every past period. So it is judged live.",
+ "status": "live",
+ "tags": [
+  "v008",
+  "momentum",
+  "futures"
+ ],
+ "publishedAt": "2026-10-21T18:02:22.771Z",
+ "updatedAt": "2026-11-03T08:21:42.102Z",
+ "body": "v008 is a paper book with 2 halves across 37 Binance futures. Each half aims at 20% annual volatility. Its rules were developed in a lab that had already seen every past period, so no historical test of them can be treated as evidence. The record therefore begins live on 18 October 2026 and is judged against a fixed bar after 90 days. It sends no signals; it is a book, tracked on paper.\n\n## Why a reasonable rule can still be unprovable\n\nA strategy can be reasonable and still unprovable from history. Trend following and relative-strength momentum are familiar ideas, but familiarity is not evidence. The rules were studied in a lab that had already seen every past period, so any historical test of them is contaminated by construction. The test would be using the same data that shaped the rule, which means it would measure fit rather than an independent outcome. That is why v008 has no backtest at all. The only historical material is a 2021–2026 replay, and that replay is not a fair test. It made about 10% a year, with a 21% worst drawdown, and was down about 7% in 2026. Those numbers describe what the replay produced; they do not validate the rule, because the replay was not an independent test. The live paper record replaces the missing backtest. It starts on 18 October 2026, after the rules are fixed, and accumulates evidence only from that point.\n\n## How the 2 halves are built\n\nThe trend half takes the sign of each coin's 20-, 60- and 120-day return, sizes positions by inverse volatility, and rebalances daily. The measurement is directional: it asks whether each coin has been rising or falling over those lookbacks, then scales the position by the coin's volatility. The momentum half works each week. It ranks coins by the last 30 days, then goes long the strongest slice and short the weakest slice in equal amounts. That construction makes it roughly market neutral, because the long and short sides are balanced rather than expressing a market view. The 2 halves therefore combine a directional trend book with a relative-strength book. The record does not claim that either half is proven; it records how the combination behaves after the rules are fixed.\n\n## Risk limits and a declared gap\n\nThe book has 2 hard limits: at most 25% of the book in a single coin, and 2x gross exposure. Costs are carried at 7 bps per side. There is also a declared gap: funding is not charged in the record. That flatters a book that carries short exposure, because a short position can incur funding that the paper record does not deduct. The record should therefore be read as overstating performance relative to a fully funded account. This is not a hidden flaw; it is stated as a limitation of the measurement. The limits and the gap are part of what the public page is judging.\n\n## The 90-day bar\n\nThe live paper record starts on 18 October 2026. After 90 days, v008 passes only if all of these hold: Sharpe above 0.5, both halves positive, drawdown under 25%, and performance that beats holding the same coins on a risk-adjusted basis. If any condition fails, it is marked failed, not retuned. The rule is fixed in advance so that the test cannot be softened after seeing the result. This is what the record does instead of a backtest: it sets a threshold before the evidence arrives and reports whether the book clears it. The book sends no signals and gives no instructions. It is tracked on paper, and the page records the outcome.",
+ "evidence": [
+  {
+   "label": "Book",
+   "value": "Two halves on 37 Binance futures, each aiming at 20% annual volatility."
+  },
+  {
+   "label": "Trend half",
+   "value": "The sign of each coin's 20-, 60- and 120-day return, sized by inverse volatility, rebalanced daily."
+  },
+  {
+   "label": "Momentum half",
+   "value": "Each week, long the strongest third of the last 30 days and short the weakest third in equal amounts, which makes it roughly market neutral."
+  },
+  {
+   "label": "Limits",
+   "value": "At most 25% of the book in one coin and 2x gross exposure, with 7 bps of cost per side."
+  },
+  {
+   "label": "Declared gap",
+   "value": "Funding is not charged in the record, which flatters a book that carries short exposure."
+  },
+  {
+   "label": "Why no backtest",
+   "value": "The rules were studied in a lab that had already seen every past period, so any historical test of them is contaminated by construction."
+  },
+  {
+   "label": "Reference replay",
+   "value": "A 2021–2026 replay, which is not a fair test, made about 10% a year with a 21% worst drawdown, and was down about 7% in 2026."
+  },
+  {
+   "label": "Start",
+   "value": "The live paper record starts on 18 October 2026."
+  },
+  {
+   "label": "The bar",
+   "value": "After 90 days it passes only if Sharpe is above 0.5, both halves are positive, the drawdown stays under 25%, and it beats holding the same coins on a risk-adjusted basis. Otherwise it is marked failed, not retuned."
+  },
+  {
+   "label": "Signals",
+   "value": "It sends no signals. It is a book, tracked on paper."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "a3c4ddbbec97093c",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

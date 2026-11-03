@@ -1,0 +1,101 @@
+{
+ "slug": "why-the-kalman-pairs-research-failed",
+ "title": "Why the Kalman pairs research failed",
+ "description": "Two frozen versions hedged altcoin futures against Bitcoin and lost after costs. The mechanism, the numbers, and the honest conclusion.",
+ "status": "failed",
+ "tags": [
+  "v009",
+  "v010",
+  "pairs",
+  "futures"
+ ],
+ "publishedAt": "2026-10-20T17:48:17.373Z",
+ "updatedAt": "2026-11-03T08:20:14.858Z",
+ "body": "The research tested a premise: two altcoin futures are hedged against each other with Bitcoin removed, and the leftover spread is expected to revert. A Kalman filter re-estimated the hedge ratio between each altcoin future and Bitcoin on every 15-minute bar. The first version was so tightly hedged that the spread never left its entry band, producing 0 trades from 168,000 model fits. The follow-up changed one parameter, the spread moved enough to trade, and the strategy still lost money on unseen data. The hedge improved; the edge did not.\n\n## The first version never left its band\n\nIn the first version, the hedge tracked fast enough that the hedged spread stayed inside its entry band. The median deviation of the spread was 0.129 of the level needed to enter. Because the spread did not reach the band, the result was 0 trades from 168,000 model fits. This is a clean mechanism-level finding rather than a noisy outcome: the entry condition was never satisfied, so there was no trade to evaluate. The problem was not that trades lost money; it was that the hedge removed too much of the movement the strategy needed. A fast hedge can look desirable because it keeps exposure small, but here it also removed the very deviation the trade needed. The first result therefore named the defect: the hedge was too tight.\n\n## The single change that created trades\n\nThe follow-up changed the hedge's process-noise delta so that the hedge tracked more slowly. Nothing else changed. That one change was the parameter the first finding had named: the hedge was too tight. After the change, the median deviation rose to 0.474, and the trading band was finally reached. The spread now moved enough to generate trades, which made the strategy testable on unseen data. Reaching the band did not imply profitability; it only removed the reason the first version produced no trades. The follow-up did not add filters, change the entry band, or alter the universe. It changed only the speed at which the hedge ratio adapted, which is why the comparison between the two versions is clean.\n\n## What the unseen data showed\n\nThe test design used 13 folds from May 2025 to June 2026, on 14 altcoin futures against Bitcoin, with a static-OLS control on the same data. The Kalman version made 118 unseen trades at a 33.1% win rate, with −50.8 bps net per trade and a profit factor of 0.32. The static-OLS control made 125 trades at a 30.4% win rate, with −55.8 bps net per trade and a profit factor of 0.33. Breadth was weak: 1 of 14 pairs was profitable on its own. In-sample variants ranged from −43.9 to −57.3 bps per trade, with profit factor at most 0.39. Costs were 16 bps per round trip. The Kalman hedge was better than the control by about 5 bps per trade, but it was still negative. A tighter hedge was not an edge. The control is important because it shows the Kalman filter was not the source of the loss by itself. Both methods were negative; the Kalman version was only less negative. The in-sample range shows the same pattern before unseen data, so the failure was not created by the test split.\n\n## Why the losses were not one accident\n\nThe loss shape matters for interpretation. The largest single Bitcoin impulse carried 4.96% of the absolute loss, so the losses were spread across events rather than caused by one accident. That makes it harder to dismiss the result as a single bad period. The accounting charges 16 bps per round trip, and the reported results are net, so costs are already inside the loss. The premise failed on this universe and window at this cost level; it should not be read as a near miss waiting for a small fix. Because the largest impulse was only 4.96% of the absolute loss, removing one event would not have changed the conclusion. The result is a broad-based negative rather than a single outlier.\n\n## Holdout left unspent\n\nThe holdout window was never spent, so a successor strategy can still use it once. That restraint is part of the record: the research did not consume its last test to chase a better-looking result. The conclusion is bounded and negative. The hedge improved relative to the control, but the strategy still lost money on unseen data, and the premise is dead at this cost level on this universe and window. Leaving the holdout unspent means the next idea can be judged on genuinely unseen data. This article makes no claim about that future test.",
+ "evidence": [
+  {
+   "label": "Premise",
+   "value": "Two altcoin futures are hedged against each other with Bitcoin removed, and the leftover spread is expected to revert."
+  },
+  {
+   "label": "Hedge",
+   "value": "A Kalman filter re-estimates the hedge ratio between each altcoin future and Bitcoin on every 15-minute bar."
+  },
+  {
+   "label": "First result",
+   "value": "0 trades from 168,000 model fits, because the hedged spread stayed inside its entry band."
+  },
+  {
+   "label": "First dispersion",
+   "value": "The median deviation of the spread was 0.129 of the level needed to enter."
+  },
+  {
+   "label": "The one change",
+   "value": "The hedge's process-noise delta moved from 1e-5 to 1e-9, so the hedge tracked more slowly. Nothing else changed."
+  },
+  {
+   "label": "Second dispersion",
+   "value": "The median deviation rose to 0.474, and the trading band was finally reached."
+  },
+  {
+   "label": "Test design",
+   "value": "13 folds from May 2025 to June 2026, on 14 altcoin futures against Bitcoin, with a static-OLS control on the same data."
+  },
+  {
+   "label": "Second result",
+   "value": "118 unseen trades, 33.1% win rate, −50.8 bps net per trade, profit factor 0.32."
+  },
+  {
+   "label": "Control",
+   "value": "The static-OLS control made 125 trades at a 30.4% win rate, −55.8 bps net per trade, profit factor 0.33."
+  },
+  {
+   "label": "Breadth",
+   "value": "1 of 14 pairs was profitable on its own."
+  },
+  {
+   "label": "Every variant",
+   "value": "In-sample variants ranged from −43.9 to −57.3 bps per trade, with profit factor at most 0.39."
+  },
+  {
+   "label": "Costs",
+   "value": "The accounting charges 16 bps per round trip."
+  },
+  {
+   "label": "Loss shape",
+   "value": "The largest single Bitcoin impulse carried 4.96% of the absolute loss, so the losses were spread across events rather than caused by one accident."
+  },
+  {
+   "label": "Holdout",
+   "value": "The holdout window was never spent, so a successor strategy can still use it once."
+  },
+  {
+   "label": "Conclusion",
+   "value": "The hedge was better than the control by about 5 bps per trade, and that was still not enough: a tighter hedge is not an edge."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "6a556da1c2b5d33c",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "why-intraday-rsi-rebounds-failed",
+ "title": "Why intraday RSI rebounds failed",
+ "description": "v007 bought 15-minute RSI extremes inside a four-hour trend on BTC, ETH and SOL futures. The unseen test was negative, and the live paper record agrees.",
+ "status": "failed",
+ "tags": [
+  "v007",
+  "futures",
+  "intraday"
+ ],
+ "publishedAt": "2026-10-21T05:58:39.799Z",
+ "updatedAt": "2026-11-03T08:21:06.850Z",
+ "body": "v007 bought or sold 15-minute RSI extremes when the higher-timeframe trend agreed, on BTC, ETH and SOL futures, with 1-day of 15-minute bars as warmup. Its stop sat 1.2 times the 15-minute ATR from entry. The unseen test was negative, and the live paper record agrees. This is the smallest and most instructive failure in the record: only 3 symbols, a short holding period, and futures costs. The question is not whether one trade lost, but whether a narrow intraday rule can support any conclusion at all.\n\n## What the rule did\n\nv007 looked for a 15-minute RSI extreme and took the side that matched the agreed trend, on BTC, ETH and SOL futures. It waited through 1-day of 15-minute bars before it could act. The stop sat 1.2 times the 15-minute ATR from entry. The universe held only 3 symbols, so the test had very little breadth to work with. Each trade was therefore tied to a small set of markets and a short holding period. The rule was simple, fast, and narrow: it reacted to intraday RSI extremes inside a broader trend, but it did not have many independent places to express that idea.\n\n## What the measurement showed\n\nThe unseen test produced 32 trades at negative 0.15R net per trade, with a profit factor of 0.79. Those results already charge fees and slippage on futures, so they are net. With only 3 symbols, the test had very little breadth to work with. A 32-trade sample spread across 3 markets is not a broad test of independent behaviour; it is a narrow slice of a few related instruments. The average trade was negative, and the profit factor below 1 means the winning trades did not outweigh the losing trades in the test. Because costs are already included, the negative result is not explained away by fees or slippage.\n\nThe test also had a short holding period, so each trade resolved quickly and the sample did not accumulate many separate market regimes. A 32-trade count can look like a sample, but 32 trades across 3 symbols means the effective number of independent observations is even smaller than the headline count. That is the core measurement problem: the rule did not have enough breadth to separate a real edge from noise.\n\n## Why it turned out that way\n\nA 15-minute signal on 3 coins cannot produce enough independent observations to support a conclusion. The 32 trades were compressed into 3 symbols and a short holding period, so the observations were not independent enough to carry the conclusion. The same broad market conditions could affect BTC, ETH and SOL at the same time, and a short holding period leaves little room for separate outcomes to emerge. Futures costs were already in the net figure, so the negative 0.15R per trade and profit factor 0.79 describe the result after those costs.\n\nThe live paper book then repeated the test's result in miniature: the engine entered BTC and ETH shorts at 02:30 UTC on 19 October 2026, and both were stopped out within 30 minutes. BTC recorded minus 1.35R and ETH recorded minus 1.22R on those trades. That live result is small, but it points the same way as the unseen test.\n\nThe live paper result does not repair the test. It is only a miniature repeat: BTC and ETH shorts entered at 02:30 UTC on 19 October 2026, both stopped out within 30 minutes, with BTC at minus 1.35R and ETH at minus 1.22R. Because the engine still runs on paper, later observations can be compared with the unseen test, but they do not convert a failed test into a supported strategy.\n\n## Status and observation\n\nv007 failed its unseen test and is kept on paper for observation only. It sends no signals. The engine still runs on paper, so its forward behaviour can be compared with the test. The record is failed, unproven, and not a basis for a conclusion about future behaviour. Keeping it on paper preserves a comparison between the test and later observations, without turning the failure into a claim about future profits.",
+ "evidence": [
+  {
+   "label": "Rules",
+   "value": "Buy or sell a 15-minute RSI extreme when the four-hour trend agrees, on BTC, ETH and SOL futures, with a 1-day worth of 15-minute bars as warmup."
+  },
+  {
+   "label": "Stop",
+   "value": "The stop sits 1.2 times the 15-minute ATR from entry."
+  },
+  {
+   "label": "Universe",
+   "value": "Only 3 symbols, so the test had very little breadth to work with."
+  },
+  {
+   "label": "Unseen test",
+   "value": "32 trades at −0.15R net per trade, profit factor 0.79."
+  },
+  {
+   "label": "Costs",
+   "value": "The test already charges fees and slippage on futures, so those results are net."
+  },
+  {
+   "label": "Live paper",
+   "value": "The live engine entered BTC and ETH shorts at 02:30 UTC on 19 October 2026 and both were stopped out within 30 minutes."
+  },
+  {
+   "label": "Live result",
+   "value": "BTC −1.35R and ETH −1.22R on those two trades."
+  },
+  {
+   "label": "Status",
+   "value": "Failed its unseen test and is kept on paper for observation only. It sends no signals."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "4d5d79ab797e8507",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

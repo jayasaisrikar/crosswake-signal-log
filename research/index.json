@@ -1,0 +1,104 @@
+{
+ "articles": [
+  {
+   "slug": "what-the-live-record-shows",
+   "title": "What the live paper record shows",
+   "description": "The engines' own state, read from the running record: what is open, what closed, and what the market filter is doing right now.",
+   "status": "live",
+   "tags": [
+    "live",
+    "paper",
+    "v005",
+    "v006"
+   ],
+   "publishedAt": "2026-10-22T12:03:30.112Z",
+   "updatedAt": "2026-11-03T08:22:07.644Z",
+   "readMinutes": 3
+  },
+  {
+   "slug": "why-the-first-two-ideas-were-retired",
+   "title": "Why the first two ideas were retired",
+   "description": "The research started with Bitcoin lead–lag at second scale, then with cost-aware delayed entries. Both were retired, and both set the standard the later work had to meet.",
+   "status": "failed",
+   "tags": [
+    "v001",
+    "v002",
+    "retired"
+   ],
+   "publishedAt": "2026-10-21T18:02:23.417Z",
+   "updatedAt": "2026-11-03T08:21:49.645Z",
+   "readMinutes": 2
+  },
+  {
+   "slug": "how-the-momentum-book-is-being-judged",
+   "title": "How the momentum book is being judged",
+   "description": "v008 runs two halves on 37 futures and cannot be fairly backtested, because its rules were developed on data that had already seen every past period. So it is judged live.",
+   "status": "live",
+   "tags": [
+    "v008",
+    "momentum",
+    "futures"
+   ],
+   "publishedAt": "2026-10-21T18:02:22.771Z",
+   "updatedAt": "2026-11-03T08:21:42.102Z",
+   "readMinutes": 3
+  },
+  {
+   "slug": "what-243-trades-can-and-cannot-prove",
+   "title": "What 243 trades can and cannot prove",
+   "description": "The main trend strategy was positive on average in its unseen test and is still inconclusive. Here is why the confidence interval matters more than the average.",
+   "status": "method",
+   "tags": [
+    "v005",
+    "v006",
+    "validation"
+   ],
+   "publishedAt": "2026-10-21T18:02:22.104Z",
+   "updatedAt": "2026-11-03T08:21:21.458Z",
+   "readMinutes": 3
+  },
+  {
+   "slug": "why-intraday-rsi-rebounds-failed",
+   "title": "Why intraday RSI rebounds failed",
+   "description": "v007 bought 15-minute RSI extremes inside a four-hour trend on BTC, ETH and SOL futures. The unseen test was negative, and the live paper record agrees.",
+   "status": "failed",
+   "tags": [
+    "v007",
+    "futures",
+    "intraday"
+   ],
+   "publishedAt": "2026-10-21T05:58:39.799Z",
+   "updatedAt": "2026-11-03T08:21:06.850Z",
+   "readMinutes": 3
+  },
+  {
+   "slug": "why-shorting-the-strongest-coins-failed",
+   "title": "Why shorting the strongest coins failed",
+   "description": "v004 shorted altcoins that held up while Bitcoin fell, betting they would catch down. Across 349 unseen trades it lost 0.46% each.",
+   "status": "failed",
+   "tags": [
+    "v004",
+    "shorts",
+    "futures"
+   ],
+   "publishedAt": "2026-10-20T17:49:47.386Z",
+   "updatedAt": "2026-11-03T08:20:43.469Z",
+   "readMinutes": 4
+  },
+  {
+   "slug": "why-the-kalman-pairs-research-failed",
+   "title": "Why the Kalman pairs research failed",
+   "description": "Two frozen versions hedged altcoin futures against Bitcoin and lost after costs. The mechanism, the numbers, and the honest conclusion.",
+   "status": "failed",
+   "tags": [
+    "v009",
+    "v010",
+    "pairs",
+    "futures"
+   ],
+   "publishedAt": "2026-10-20T17:48:17.373Z",
+   "updatedAt": "2026-11-03T08:20:14.858Z",
+   "readMinutes": 4
+  }
+ ]
+}

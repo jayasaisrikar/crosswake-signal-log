@@ -1,0 +1,112 @@
+{
+ "slug": "what-243-trades-can-and-cannot-prove",
+ "title": "What 243 trades can and cannot prove",
+ "description": "The main trend strategy was positive on average in its unseen test and is still inconclusive. Here is why the confidence interval matters more than the average.",
+ "status": "method",
+ "tags": [
+  "v005",
+  "v006",
+  "validation"
+ ],
+ "publishedAt": "2026-10-21T18:02:22.104Z",
+ "updatedAt": "2026-11-03T08:21:21.458Z",
+ "body": "A trend-following test can look successful while still failing to prove an edge. Here, the average trade was positive after costs, but the interval around that average includes zero. The honest status is inconclusive.\n\n## The rules and assumptions\n\nThe strategy was long only, on completed daily candles, with a single position per coin at a time. A market filter required Bitcoin's daily close to be above its 100-day average before any entry was allowed. Entry came when a coin closed above the highest close of its prior 20 days. Exit came when the daily close fell below its prior 10-day low, or when the market filter turned off.\n\nTwo assumptions matter for reading the result. The fill assumption was the next day's open after the 00:00 UTC daily close, never the price shown at the close. Costs were fixed at 30 bps, or 0.30%, per round trip. These assumptions describe how the test was measured; they are not live fills.\n\n## What the measurement showed\n\nThe sample was 243 trades from January 2025 to September 2026. Of those trades, 33.7% won. The average was +1.5% net per trade after costs, and the profit factor was 1.32. The average winner was about +19%, while the average loser was about -7.3%, which is the shape trend following is supposed to have.\n\nThe uncertainty is the important part. The 95% confidence interval for the average return was -2.9% to +6.3%, and it includes zero. As a portfolio, the same trades made +12.8% with a -16.9% maximum drawdown. Holding the same coins made +40.5% with a -54.2% drawdown. Without ZEC the portfolio was about flat, so one coin carried the result. Repricing every trade at fills 1 and 4 hours late barely moved the result.\n\n## Why 243 trades are thinner than they look\n\nThe headline count is not the number of independent observations. There were only 33 independent entry-weeks, so the trades are far from independent samples. Trend entries cluster in time: when a market regime produces signals, many coins can trigger in the same weeks. That means 243 trades do not provide 243 separate pieces of evidence.\n\nThis clustering is why the confidence interval matters more than the average. With the true average possibly between -2.9% and +6.3%, the observed +1.5% average cannot be separated from zero. A positive sample average is compatible with no edge. The point is not that the test was bad; it is that the sample is much thinner than the trade count suggests.\n\n## Where the rules came from\n\nTwo honest caveats limit how much the test can prove. Development leaned heavily on the 2020-2021 bull market, and Bitcoin was in an uptrend for most of the test window. A rule set shaped by one market phase and then tested in a mostly rising market has not faced a broad enough range of conditions. These caveats do not make the result meaningless, but they stop a positive average from becoming a claim of proof.\n\nConcentration reinforces the same caution. Without ZEC the portfolio was about flat, so one coin carried the result. That is not a broad confirmation of the rule set; it is a reminder that a single position can dominate a small sample.\n\n## Inconclusive is a published outcome\n\nThe honest label is inconclusive, not proven. Live paper tracking from 1 October 2026 is what adds evidence now. The record does not need a positive-sounding conclusion; it needs the correct one. A positive average after costs, a profit factor above one, and a trend-shaped distribution of winners and losers are all real features of this sample. None of them, on this evidence, establish an edge. The confidence interval includes zero, the trades cluster into 33 independent entry-weeks, and the development and test periods both leaned in one market direction. That is why inconclusive is a permitted and published outcome.",
+ "evidence": [
+  {
+   "label": "Rules",
+   "value": "Long only, on completed daily candles, one position per coin at a time."
+  },
+  {
+   "label": "Market filter",
+   "value": "Bitcoin's daily close must be above its 100-day average before any entry is allowed."
+  },
+  {
+   "label": "Entry",
+   "value": "A coin closes above the highest close of its prior 20 days."
+  },
+  {
+   "label": "Exit",
+   "value": "The daily close falls below its prior 10-day low, or the market filter turns off."
+  },
+  {
+   "label": "Fill assumption",
+   "value": "The next day's open after the 00:00 UTC daily close, never the price shown at the close."
+  },
+  {
+   "label": "Costs",
+   "value": "30 bps, or 0.30%, per round trip."
+  },
+  {
+   "label": "Sample",
+   "value": "243 trades from January 2025 to September 2026."
+  },
+  {
+   "label": "Win rate",
+   "value": "33.7% of the trades won."
+  },
+  {
+   "label": "Average",
+   "value": "+1.5% net per trade after costs."
+  },
+  {
+   "label": "Profit factor",
+   "value": "1.32."
+  },
+  {
+   "label": "Winners and losers",
+   "value": "The average winner was about +19% and the average loser about −7.3%, which is the shape trend following is supposed to have."
+  },
+  {
+   "label": "Uncertainty",
+   "value": "The 95% confidence interval for the average return was −2.9% to +6.3%. It includes zero."
+  },
+  {
+   "label": "Independence",
+   "value": "There were only 33 independent entry-weeks, so the trades are far from independent samples."
+  },
+  {
+   "label": "Development bias",
+   "value": "Development leaned heavily on the 2020–2021 bull market, and Bitcoin was in an uptrend for most of the test window."
+  },
+  {
+   "label": "Portfolio view",
+   "value": "As a portfolio the same trades made +12.8% with a −16.9% maximum drawdown. Holding the same coins made +40.5% with a −54.2% drawdown."
+  },
+  {
+   "label": "Concentration",
+   "value": "Without ZEC the portfolio was about flat, so one coin carried the result."
+  },
+  {
+   "label": "Execution sensitivity",
+   "value": "Repricing every trade at fills 1 and 4 hours late barely moved the result."
+  },
+  {
+   "label": "Conclusion",
+   "value": "The honest label is inconclusive, not proven. Live paper tracking from 1 October 2026 is what adds evidence now."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "5e280178592b746e",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}

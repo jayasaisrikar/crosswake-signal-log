@@ -1,0 +1,69 @@
+{
+ "slug": "what-the-live-record-shows",
+ "title": "What the live paper record shows",
+ "description": "The engines' own state, read from the running record: what is open, what closed, and what the market filter is doing right now.",
+ "status": "live",
+ "tags": [
+  "live",
+  "paper",
+  "v005",
+  "v006"
+ ],
+ "publishedAt": "2026-10-22T12:03:30.112Z",
+ "updatedAt": "2026-11-03T08:22:07.644Z",
+ "body": "This note reports the live paper record as it stands at the snapshot time. Every position in this record is paper, no real orders are placed anywhere, and one trade says nothing about a strategy.\n\n## Framing and live starts\n\nThe framing is paper signals only. Live starts are recorded from 1 October 2026 for trend-daily-v005 and from 9 October 2026 for trend-daily-v006. The first live signal was an ATOM entry at 2.066 after the 10 October 2026 daily close. ATOM exited below its 10-day low at the 18 October 2026 close, at 1.703, which is −17.9% after the 30 bps round trip. A NEAR entry at 5.896 on 12 October 2026 has been open since. In testing, a losing start is the expected case rather than a surprise, and the average winner was roughly +19%. The ATOM result and the NEAR position are part of the same early live record, not a summary of strategy quality. Because every entry is paper, these open and closed states do not represent committed capital or realized cash flows.\n\n## Open positions\n\nAt the snapshot read at 2026-11-03T08:19:47.201Z, the open paper positions are as follows. htf-rsi-v007 has 0 positions open on paper. trend-daily-v005 has 0 positions open on paper. trend-daily-v006 has 1 position open on paper, namely HYPEUSDT, open since 2026-10-30T00:00:00.000Z. No other open positions appear in the live snapshot. The HYPEUSDT position is the only open entry across the three engines, while the other two engines show no open paper positions at the snapshot time.\n\n## Closed trades\n\nThe closed-trade record is short. htf-rsi-v007 has 4 closed trades so far, with average null net per trade. trend-daily-v005 has 5 closed trades so far, with average -13.68% net per trade. trend-daily-v006 has 5 closed trades so far, with average -13.68% net per trade. The htf engine's average is recorded as null, so no net percentage is stated for it. The two trend engines share the same closed-trade count and the same average net figure in this snapshot. The null average for htf-rsi-v007 means the record does not state a net percentage for that engine's four closed trades. These numbers describe what has already happened in the paper record; they do not describe expected future results.\n\n## Market filter and nearest breakouts\n\nThe Bitcoin market filter is on for trend-daily-v005 and trend-daily-v006. The filter being on is a state reading, not a recommendation to enter or avoid any market. The nearest distances to a 20-day breakout are recorded as follows. For trend-daily-v005, UNIUSDT is 5.87% below its high, BCHUSDT is 6.65% below its high, and BNBUSDT is 7.98% below its high. For trend-daily-v006, UNIUSDT is 5.87% below its high, HYPEUSDT is 6.50% below its high, and BCHUSDT is 6.65% below its high. These figures are distance measurements from current highs under the recorded filter state. They are not forecasts, and they do not imply that any position will be opened or closed.\n\n## What the record shows and how to check it\n\nThe record shows a paper-only account state at one snapshot time: no open positions for htf-rsi-v007, no open positions for trend-daily-v005, one open HYPEUSDT position for trend-daily-v006, and closed-trade averages of null, -13.68%, and -13.68% respectively. It also shows the ATOM loss of -17.9% after the 30 bps round trip and the still-open NEAR entry at 5.896 from 12 October 2026. The record updates continuously. Readers checking the performance page, the signal log, or the channel status should find the same open counts, closed counts, averages, and distances recorded here. This snapshot was read at 2026-11-03T08:19:47.201Z.",
+ "evidence": [
+  {
+   "label": "Framing",
+   "value": "Paper signals only. No real orders are placed anywhere in this record."
+  },
+  {
+   "label": "Live starts",
+   "value": "v005 counts its live record from 1 October 2026 and v006 from 9 October 2026."
+  },
+  {
+   "label": "First live signal",
+   "value": "An ATOM entry at 2.066 after the 10 October 2026 daily close."
+  },
+  {
+   "label": "ATOM result",
+   "value": "ATOM exited below its 10-day low at the 18 October 2026 close, at 1.703, which is −17.9% after the 30 bps round trip."
+  },
+  {
+   "label": "NEAR",
+   "value": "A NEAR entry at 5.896 on 12 October 2026 has been open since."
+  },
+  {
+   "label": "Expectation",
+   "value": "In testing about two trades in three lost and the average winner was roughly +19%, so a losing start is the expected case rather than a surprise."
+  },
+  {
+   "label": "Where to check",
+   "value": "The same numbers appear on the performance page, in the signal log, and in the status posted to the channel."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Changelog",
+   "href": "/changelog"
+  },
+  {
+   "label": "Strategy catalog",
+   "href": "/docs/strategies"
+  },
+  {
+   "label": "Performance",
+   "href": "/performance"
+  },
+  {
+   "label": "Signal log",
+   "href": "/log"
+  }
+ ],
+ "generator": {
+  "model": "opencode/beam-free",
+  "factsHash": "6db42138de4073d4",
+  "gate": "model",
+  "modelAttempts": 0
+ }
+}
