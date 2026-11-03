@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-03T08:57:59.375Z",
+ "generatedAt": "2026-11-03T09:13:07.136Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-03T08:57:58.473Z",
+  "lastMessageAt": "2026-11-03T09:13:06.914Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -80,7 +80,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -628.31,
+     "markBps": -581.24,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -147,7 +147,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T08:57:00.000Z",
+   "lastEventAt": "2026-11-03T09:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -168,7 +168,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T08:57:00.000Z",
+   "lastEventAt": "2026-11-03T09:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -292,7 +292,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-03T08:06:26.597Z",
+   "lastEventAt": "2026-11-03T09:06:34.613Z",
    "telegram": false,
    "executionEnabled": false
   }
