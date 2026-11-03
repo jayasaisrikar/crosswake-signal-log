@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-03T09:13:07.136Z",
+ "generatedAt": "2026-11-03T09:28:15.136Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-03T09:13:06.914Z",
+  "lastMessageAt": "2026-11-03T09:28:14.159Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -121,15 +121,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-03T05:21:00.000Z",
-     "markBps": null,
-     "targetBps": 180.83,
-     "stopBps": 310.14,
-     "exitBy": "2026-11-03T09:21:00.000Z"
-    },
-    {
      "symbol": "UNIUSDT",
      "side": "SHORT",
      "since": "2026-11-03T06:11:00.000Z",
@@ -140,14 +131,14 @@
     }
    ],
    "stats": {
-    "trades": 67,
+    "trades": 68,
     "winRate": null,
-    "netExpectancyBps": -33.92,
+    "netExpectancyBps": -33.69,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T09:13:00.000Z",
+   "lastEventAt": "2026-11-03T09:28:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -168,7 +159,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T09:13:00.000Z",
+   "lastEventAt": "2026-11-03T09:28:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -299,6 +290,18 @@
  ],
  "events": [
   {
+   "id": "res-1793678400000-1793683200000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-03T09:21:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.2531,
+   "netBps": -18.19,
+   "reason": "time"
+  },
+  {
    "id": "res-1793678400000-1793686200000-UNIUSDT-SHORT",
    "at": "2026-11-03T06:10:03.934Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -428,18 +431,6 @@
    "side": "short",
    "price": 7.389,
    "netBps": 17.48,
-   "reason": null
-  },
-  {
-   "id": "res-1793520000000-1793530500000-BNBUSDT-SHORT",
-   "at": "2026-11-01T10:55:04.005Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 714.04,
-   "netBps": 19.15,
    "reason": null
   }
  ],
