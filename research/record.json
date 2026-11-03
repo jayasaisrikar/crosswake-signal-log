@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-03T09:28:15.136Z",
+ "generatedAt": "2026-11-03T09:43:22.881Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-03T09:28:14.159Z",
+  "lastMessageAt": "2026-11-03T09:43:22.814Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -64,7 +64,7 @@
     }
    ],
    "lastEventAt": "2026-10-31T00:00:00.000Z",
-   "telegram": true,
+   "telegram": false,
    "executionEnabled": false
   },
   {
@@ -80,7 +80,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -581.24,
+     "markBps": -567.39,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -108,6 +108,34 @@
     }
    ],
    "lastEventAt": "2026-10-31T00:00:00.000Z",
+   "telegram": false,
+   "executionEnabled": false
+  },
+  {
+   "id": "trend-daily-v011",
+   "version": "trend-daily-v011",
+   "kind": "trend-daily",
+   "market": "spot",
+   "instrument": "outright",
+   "liveSince": "2026-11-03T00:00:00.000Z",
+   "regimeOn": true,
+   "positions": [],
+   "stats": null,
+   "watch": [
+    {
+     "symbol": "UNIUSDT",
+     "toHighBps": -587.46
+    },
+    {
+     "symbol": "BCHUSDT",
+     "toHighBps": -665.32
+    },
+    {
+     "symbol": "BNBUSDT",
+     "toHighBps": -797.53
+    }
+   ],
+   "lastEventAt": null,
    "telegram": true,
    "executionEnabled": false
   },
@@ -138,7 +166,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T09:28:00.000Z",
+   "lastEventAt": "2026-11-03T09:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -159,7 +187,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-03T09:28:00.000Z",
+   "lastEventAt": "2026-11-03T09:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
