@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-04T11:58:28.188Z",
+ "generatedAt": "2026-11-04T12:13:36.285Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-04T11:58:27.564Z",
+  "lastMessageAt": "2026-11-04T12:13:35.874Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -80,7 +80,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -240.81,
+     "markBps": -363.22,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -147,7 +147,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "ETHUSDT",
+     "side": "SHORT",
+     "since": "2026-11-04T12:06:00.000Z",
+     "markBps": null,
+     "targetBps": 126.92,
+     "stopBps": 279.94,
+     "exitBy": "2026-11-04T16:06:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 71,
     "winRate": null,
@@ -156,7 +166,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T11:58:00.000Z",
+   "lastEventAt": "2026-11-04T12:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -177,7 +187,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T11:58:00.000Z",
+   "lastEventAt": "2026-11-04T12:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -301,12 +311,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-04T11:06:48.220Z",
+   "lastEventAt": "2026-11-04T12:06:57.611Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1793793600000-1793793900000-ETHUSDT-SHORT",
+   "at": "2026-11-04T12:05:04.470Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "ETHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 2322.25,
+   "netBps": 8.22,
+   "reason": null
+  },
   {
    "id": "res-1793750400000-1793762100000-UNIUSDT-SHORT-exit",
    "at": "2026-11-04T07:16:00.000Z",
@@ -438,18 +460,6 @@
    "price": 1.249,
    "netBps": -30.43,
    "reason": "time"
-  },
-  {
-   "id": "res-1793649600000-1793656200000-DOGEUSDT-SHORT",
-   "at": "2026-11-02T21:50:03.980Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "DOGEUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.07429,
-   "netBps": 5.16,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-10-12T04:05:26.937Z"
