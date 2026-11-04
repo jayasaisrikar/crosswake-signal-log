@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-04T03:07:47.100Z",
+ "generatedAt": "2026-11-04T03:22:55.038Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-04T03:07:46.575Z",
+  "lastMessageAt": "2026-11-04T03:22:54.923Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -156,6 +156,15 @@
      "targetBps": 286.86,
      "stopBps": 421.49,
      "exitBy": "2026-11-04T07:01:00.000Z"
+    },
+    {
+     "symbol": "UNIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-04T03:16:00.000Z",
+     "markBps": null,
+     "targetBps": 433.3,
+     "stopBps": 595.91,
+     "exitBy": "2026-11-04T07:16:00.000Z"
     }
    ],
    "stats": {
@@ -166,7 +175,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T03:07:00.000Z",
+   "lastEventAt": "2026-11-04T03:22:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -187,7 +196,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T03:07:00.000Z",
+   "lastEventAt": "2026-11-04T03:22:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -317,6 +326,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1793750400000-1793762100000-UNIUSDT-SHORT",
+   "at": "2026-11-04T03:15:03.820Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 7.02,
+   "netBps": 20.47,
+   "reason": null
+  },
   {
    "id": "res-1793750400000-1793761200000-AVAXUSDT-SHORT",
    "at": "2026-11-04T03:00:04.753Z",
@@ -448,18 +469,6 @@
    "price": 1.2458,
    "netBps": -16,
    "reason": null
-  },
-  {
-   "id": "res-1793534400000-1793542200000-UNIUSDT-SHORT-exit",
-   "at": "2026-11-01T18:11:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "UNIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 7.146,
-   "netBps": 303.95,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-10-12T04:05:26.937Z"
