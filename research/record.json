@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-04T06:54:45.925Z",
+ "generatedAt": "2026-11-04T07:09:53.229Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-04T06:54:45.545Z",
+  "lastMessageAt": "2026-11-04T07:09:52.867Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -80,7 +80,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -510.29,
+     "markBps": -522.23,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -149,15 +149,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "AVAXUSDT",
-     "side": "SHORT",
-     "since": "2026-11-04T03:01:00.000Z",
-     "markBps": null,
-     "targetBps": 286.86,
-     "stopBps": 421.49,
-     "exitBy": "2026-11-04T07:01:00.000Z"
-    },
-    {
      "symbol": "UNIUSDT",
      "side": "SHORT",
      "since": "2026-11-04T03:16:00.000Z",
@@ -168,14 +159,14 @@
     }
    ],
    "stats": {
-    "trades": 69,
+    "trades": 70,
     "winRate": null,
-    "netExpectancyBps": -36.52,
+    "netExpectancyBps": -39.9,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T06:54:00.000Z",
+   "lastEventAt": "2026-11-04T07:09:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -196,7 +187,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T06:54:00.000Z",
+   "lastEventAt": "2026-11-04T07:09:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -320,12 +311,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-04T06:06:03.836Z",
+   "lastEventAt": "2026-11-04T07:06:14.064Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1793750400000-1793761200000-AVAXUSDT-SHORT-exit",
+   "at": "2026-11-04T07:01:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "AVAXUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 8.559,
+   "netBps": -273.67,
+   "reason": "time"
+  },
   {
    "id": "res-1793750400000-1793762100000-UNIUSDT-SHORT",
    "at": "2026-11-04T03:15:03.820Z",
@@ -455,18 +458,6 @@
    "market": "usdm",
    "side": "short",
    "price": 277.77,
-   "netBps": -16,
-   "reason": null
-  },
-  {
-   "id": "res-1793635200000-1793647800000-XRPUSDT-SHORT",
-   "at": "2026-11-02T19:30:03.661Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "XRPUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1.2458,
    "netBps": -16,
    "reason": null
   }
