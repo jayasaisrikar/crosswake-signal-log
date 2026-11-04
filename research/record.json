@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-04T02:52:39.137Z",
+ "generatedAt": "2026-11-04T03:07:47.100Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-04T02:52:38.350Z",
+  "lastMessageAt": "2026-11-04T03:07:46.575Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -80,7 +80,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -691.04,
+     "markBps": -840.81,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -147,7 +147,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "AVAXUSDT",
+     "side": "SHORT",
+     "since": "2026-11-04T03:01:00.000Z",
+     "markBps": null,
+     "targetBps": 286.86,
+     "stopBps": 421.49,
+     "exitBy": "2026-11-04T07:01:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 69,
     "winRate": null,
@@ -156,7 +166,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T02:52:00.000Z",
+   "lastEventAt": "2026-11-04T03:07:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -177,7 +187,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T02:52:00.000Z",
+   "lastEventAt": "2026-11-04T03:07:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -301,12 +311,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-04T02:05:27.894Z",
+   "lastEventAt": "2026-11-04T03:05:37.157Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1793750400000-1793761200000-AVAXUSDT-SHORT",
+   "at": "2026-11-04T03:00:04.753Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "AVAXUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 8.356,
+   "netBps": 2.1,
+   "reason": null
+  },
   {
    "id": "res-1793678400000-1793686200000-UNIUSDT-SHORT-exit",
    "at": "2026-11-03T10:11:00.000Z",
@@ -437,18 +459,6 @@
    "side": "short",
    "price": 7.146,
    "netBps": 303.95,
-   "reason": "time"
-  },
-  {
-   "id": "res-1793520000000-1793530500000-BNBUSDT-SHORT-exit",
-   "at": "2026-11-01T14:56:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 717.05,
-   "netBps": -57.59,
    "reason": "time"
   }
  ],
