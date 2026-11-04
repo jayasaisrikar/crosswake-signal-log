@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-04T07:09:53.229Z",
+ "generatedAt": "2026-11-04T07:25:01.185Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-04T07:09:52.867Z",
+  "lastMessageAt": "2026-11-04T07:25:00.279Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -147,26 +147,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "UNIUSDT",
-     "side": "SHORT",
-     "since": "2026-11-04T03:16:00.000Z",
-     "markBps": null,
-     "targetBps": 433.3,
-     "stopBps": 595.91,
-     "exitBy": "2026-11-04T07:16:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 70,
+    "trades": 71,
     "winRate": null,
-    "netExpectancyBps": -39.9,
+    "netExpectancyBps": -46.61,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T07:09:00.000Z",
+   "lastEventAt": "2026-11-04T07:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -187,7 +177,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-04T07:09:00.000Z",
+   "lastEventAt": "2026-11-04T07:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -318,6 +308,18 @@
  ],
  "events": [
   {
+   "id": "res-1793750400000-1793762100000-UNIUSDT-SHORT-exit",
+   "at": "2026-11-04T07:16:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 7.396,
+   "netBps": -515.72,
+   "reason": "time"
+  },
+  {
    "id": "res-1793750400000-1793761200000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-04T07:01:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -447,18 +449,6 @@
    "side": "short",
    "price": 0.07429,
    "netBps": 5.16,
-   "reason": null
-  },
-  {
-   "id": "res-1793649600000-1793649900000-BCHUSDT-SHORT",
-   "at": "2026-11-02T20:05:03.990Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "BCHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 277.77,
-   "netBps": -16,
    "reason": null
   }
  ],
