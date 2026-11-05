@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T06:53:23.761Z",
+ "generatedAt": "2026-11-05T07:08:31.285Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T06:53:23.308Z",
+  "lastMessageAt": "2026-11-05T07:08:30.652Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -46,7 +46,7 @@
      "symbol": "UNIUSDT",
      "side": null,
      "since": "2026-11-05T00:00:00.000Z",
-     "markBps": -117.86,
+     "markBps": 34.25,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -90,7 +90,7 @@
      "symbol": "UNIUSDT",
      "side": null,
      "since": "2026-11-05T00:00:00.000Z",
-     "markBps": -119.17,
+     "markBps": 30.32,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -99,7 +99,7 @@
      "symbol": "HYPEUSDT",
      "side": null,
      "since": "2026-10-30T00:00:00.000Z",
-     "markBps": -664.35,
+     "markBps": -630.9,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -143,7 +143,7 @@
      "symbol": "UNIUSDT",
      "side": null,
      "since": "2026-11-05T00:00:00.000Z",
-     "markBps": -117.86,
+     "markBps": 34.25,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -195,7 +195,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T06:53:00.000Z",
+   "lastEventAt": "2026-11-05T07:08:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -216,7 +216,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T06:53:00.000Z",
+   "lastEventAt": "2026-11-05T07:08:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -340,7 +340,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-05T06:06:05.437Z",
+   "lastEventAt": "2026-11-05T07:06:16.982Z",
    "telegram": false,
    "executionEnabled": false
   }
