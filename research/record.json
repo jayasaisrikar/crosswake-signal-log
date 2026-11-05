@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T09:24:58.253Z",
+ "generatedAt": "2026-11-05T09:40:05.965Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T09:24:57.813Z",
+  "lastMessageAt": "2026-11-05T09:40:05.155Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -194,6 +194,15 @@
      "targetBps": 214.97,
      "stopBps": 315.99,
      "exitBy": "2026-11-05T12:46:00.000Z"
+    },
+    {
+     "symbol": "ADAUSDT",
+     "side": "SHORT",
+     "since": "2026-11-05T09:31:00.000Z",
+     "markBps": null,
+     "targetBps": 244.98,
+     "stopBps": 427.64,
+     "exitBy": "2026-11-05T13:31:00.000Z"
     }
    ],
    "stats": {
@@ -204,7 +213,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T09:24:00.000Z",
+   "lastEventAt": "2026-11-05T09:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -225,7 +234,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T09:24:00.000Z",
+   "lastEventAt": "2026-11-05T09:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -355,6 +364,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1793865600000-1793871000000-ADAUSDT-SHORT",
+   "at": "2026-11-05T09:30:03.985Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "ADAUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.199,
+   "netBps": -8.46,
+   "reason": null
+  },
   {
    "id": "res-1793865600000-1793868300000-BCHUSDT-SHORT",
    "at": "2026-11-05T08:45:04.137Z",
@@ -486,18 +507,6 @@
    "price": 2322.25,
    "netBps": 8.22,
    "reason": null
-  },
-  {
-   "id": "res-1793750400000-1793762100000-UNIUSDT-SHORT-exit",
-   "at": "2026-11-04T07:16:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "UNIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 7.396,
-   "netBps": -515.72,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-10-12T04:05:26.937Z"
