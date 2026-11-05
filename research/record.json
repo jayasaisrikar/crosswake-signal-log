@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T02:36:14.914Z",
+ "generatedAt": "2026-11-05T02:51:22.309Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T02:36:14.620Z",
+  "lastMessageAt": "2026-11-05T02:51:22.007Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -176,7 +176,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "SOLUSDT",
+     "side": "SHORT",
+     "since": "2026-11-05T02:41:00.000Z",
+     "markBps": null,
+     "targetBps": 174.51,
+     "stopBps": 345.85,
+     "exitBy": "2026-11-05T06:41:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 72,
     "winRate": null,
@@ -185,7 +195,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T02:36:00.000Z",
+   "lastEventAt": "2026-11-05T02:51:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -206,7 +216,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T02:36:00.000Z",
+   "lastEventAt": "2026-11-05T02:51:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -336,6 +346,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1793836800000-1793846400000-SOLUSDT-SHORT",
+   "at": "2026-11-05T02:40:03.840Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 96.4,
+   "netBps": -3.26,
+   "reason": null
+  },
   {
    "id": "UNIUSDT-1793836800000-entry",
    "at": "2026-11-05T00:00:00.000Z",
@@ -467,18 +489,6 @@
    "price": 1.2531,
    "netBps": -18.19,
    "reason": "time"
-  },
-  {
-   "id": "res-1793678400000-1793686200000-UNIUSDT-SHORT",
-   "at": "2026-11-03T06:10:03.934Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "UNIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 6.98,
-   "netBps": 20.58,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-10-12T04:05:26.937Z"
