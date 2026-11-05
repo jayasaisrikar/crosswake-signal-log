@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T13:27:01.341Z",
+ "generatedAt": "2026-11-05T13:42:09.356Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T13:27:00.572Z",
+  "lastMessageAt": "2026-11-05T13:42:08.981Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -176,26 +176,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "ADAUSDT",
-     "side": "SHORT",
-     "since": "2026-11-05T09:31:00.000Z",
-     "markBps": null,
-     "targetBps": 244.98,
-     "stopBps": 427.64,
-     "exitBy": "2026-11-05T13:31:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 76,
+    "trades": 77,
     "winRate": null,
-    "netExpectancyBps": -46.56,
+    "netExpectancyBps": -43.55,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T13:26:00.000Z",
+   "lastEventAt": "2026-11-05T13:42:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -216,7 +206,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T13:26:00.000Z",
+   "lastEventAt": "2026-11-05T13:42:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -347,6 +337,18 @@
  ],
  "events": [
   {
+   "id": "res-1793865600000-1793871000000-ADAUSDT-SHORT-exit",
+   "at": "2026-11-05T13:31:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ADAUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.1949,
+   "netBps": 185.11,
+   "reason": "time"
+  },
+  {
    "id": "res-1793865600000-1793868300000-BCHUSDT-SHORT-exit",
    "at": "2026-11-05T12:46:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -470,18 +472,6 @@
    "id": "UNIUSDT-1793836800000-entry",
    "at": "2026-11-05T00:00:00.000Z",
    "engine": "trend-daily-v006",
-   "kind": "entry",
-   "symbol": "UNIUSDT",
-   "market": "spot",
-   "side": "long",
-   "price": 7.626,
-   "netBps": null,
-   "reason": null
-  },
-  {
-   "id": "UNIUSDT-1793836800000-entry",
-   "at": "2026-11-05T00:00:00.000Z",
-   "engine": "trend-daily-v011",
    "kind": "entry",
    "symbol": "UNIUSDT",
    "market": "spot",
