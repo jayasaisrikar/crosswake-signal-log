@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T08:09:02.825Z",
+ "generatedAt": "2026-11-05T08:24:10.791Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T08:09:01.972Z",
+  "lastMessageAt": "2026-11-05T08:24:10.391Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -176,26 +176,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LINKUSDT",
-     "side": "SHORT",
-     "since": "2026-11-05T04:16:00.000Z",
-     "markBps": null,
-     "targetBps": 264.2,
-     "stopBps": 439.47,
-     "exitBy": "2026-11-05T08:16:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 73,
+    "trades": 74,
     "winRate": null,
-    "netExpectancyBps": -49.53,
+    "netExpectancyBps": -49.35,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T08:08:00.000Z",
+   "lastEventAt": "2026-11-05T08:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -216,7 +206,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T08:08:00.000Z",
+   "lastEventAt": "2026-11-05T08:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -347,6 +337,18 @@
  ],
  "events": [
   {
+   "id": "res-1793851200000-1793852100000-LINKUSDT-SHORT-exit",
+   "at": "2026-11-05T08:16:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LINKUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 11.553,
+   "netBps": -35.82,
+   "reason": "time"
+  },
+  {
    "id": "res-1793836800000-1793846400000-SOLUSDT-SHORT-exit",
    "at": "2026-11-05T06:41:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -476,18 +478,6 @@
    "side": "short",
    "price": 7.02,
    "netBps": 20.47,
-   "reason": null
-  },
-  {
-   "id": "res-1793750400000-1793761200000-AVAXUSDT-SHORT",
-   "at": "2026-11-04T03:00:04.753Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.356,
-   "netBps": 2.1,
    "reason": null
   }
  ],
