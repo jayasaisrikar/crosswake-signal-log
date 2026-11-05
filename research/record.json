@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T19:15:46.062Z",
+ "generatedAt": "2026-11-05T19:30:53.964Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-05T19:15:45.524Z",
+  "lastMessageAt": "2026-11-05T19:30:52.979Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -178,15 +178,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "DOTUSDT",
-     "side": "SHORT",
-     "since": "2026-11-05T15:16:00.000Z",
-     "markBps": null,
-     "targetBps": 399.28,
-     "stopBps": 507.14,
-     "exitBy": "2026-11-05T19:16:00.000Z"
-    },
-    {
      "symbol": "SUIUSDT",
      "side": "SHORT",
      "since": "2026-11-05T15:56:00.000Z",
@@ -197,14 +188,14 @@
     }
    ],
    "stats": {
-    "trades": 79,
+    "trades": 80,
     "winRate": null,
-    "netExpectancyBps": -38.41,
+    "netExpectancyBps": -38.3,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T19:15:00.000Z",
+   "lastEventAt": "2026-11-05T19:30:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -225,7 +216,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-05T19:15:00.000Z",
+   "lastEventAt": "2026-11-05T19:30:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -355,6 +346,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1793880000000-1793891700000-DOTUSDT-SHORT-exit",
+   "at": "2026-11-05T19:16:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "DOTUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.9197,
+   "netBps": -29.19,
+   "reason": "time"
+  },
   {
    "id": "res-1793880000000-1793891400000-BNBUSDT-SHORT-exit",
    "at": "2026-11-05T19:11:00.000Z",
@@ -486,18 +489,6 @@
    "price": 8.49,
    "netBps": 4.02,
    "reason": null
-  },
-  {
-   "id": "res-1793865600000-1793871000000-ADAUSDT-SHORT-exit",
-   "at": "2026-11-05T13:31:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "ADAUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.1949,
-   "netBps": 185.11,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-10-12T04:05:26.937Z"
