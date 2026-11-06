@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-06T20:59:49.852Z",
+ "generatedAt": "2026-11-06T21:14:57.809Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-06T20:59:49.347Z",
+  "lastMessageAt": "2026-11-06T21:14:57.655Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T20:59:00.000Z",
+   "lastEventAt": "2026-11-06T21:14:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -164,26 +164,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "SOLUSDT",
-     "side": "LONG",
-     "since": "2026-11-06T17:06:00.000Z",
-     "markBps": null,
-     "targetBps": 138.3,
-     "stopBps": 185.18,
-     "exitBy": "2026-11-06T21:06:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 6,
+    "trades": 7,
     "winRate": null,
-    "netExpectancyBps": 101.4,
+    "netExpectancyBps": 74.68,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T20:59:00.000Z",
+   "lastEventAt": "2026-11-06T21:14:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +297,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-06T20:08:28.921Z",
+   "lastEventAt": "2026-11-06T21:08:41.499Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1793980800000-1793984700000-SOLUSDT-LONG-exit",
+   "at": "2026-11-06T21:06:00.000Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "exit",
+   "symbol": "SOLUSDT",
+   "market": "spot",
+   "side": "long",
+   "price": 90.03,
+   "netBps": -85.62,
+   "reason": "time"
+  },
   {
    "id": "res-1793973600000-1793977200000-SOLUSDT-SHORT-exit",
    "at": "2026-11-06T19:01:00.000Z",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 8.387,
    "netBps": 13.84,
-   "reason": null
-  },
-  {
-   "id": "res-1793966400000-1793972400000-LINKUSDT-SHORT",
-   "at": "2026-11-06T13:40:05.302Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 10.894,
-   "netBps": -5.43,
    "reason": null
   }
  ],
