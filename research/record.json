@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-06T18:58:49.387Z",
+ "generatedAt": "2026-11-06T19:13:56.509Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-06T18:58:49.264Z",
+  "lastMessageAt": "2026-11-06T19:13:55.620Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T18:58:00.000Z",
+   "lastEventAt": "2026-11-06T19:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -165,15 +165,6 @@
    "liveSince": null,
    "regimeOn": null,
    "positions": [
-    {
-     "symbol": "SOLUSDT",
-     "side": "SHORT",
-     "since": "2026-11-06T15:01:00.000Z",
-     "markBps": null,
-     "targetBps": 174.57,
-     "stopBps": 184.61,
-     "exitBy": "2026-11-06T19:01:00.000Z"
-    },
     {
      "symbol": "SOLUSDT",
      "side": "LONG",
@@ -192,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T18:58:00.000Z",
+   "lastEventAt": "2026-11-06T19:13:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,12 +307,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-06T18:08:08.061Z",
+   "lastEventAt": "2026-11-06T19:08:19.981Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1793973600000-1793977200000-SOLUSDT-SHORT-exit",
+   "at": "2026-11-06T19:01:00.000Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "exit",
+   "symbol": "SOLUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 90.24,
+   "netBps": 57.52,
+   "reason": "time"
+  },
   {
    "id": "res-1793973600000-1793976300000-ADAUSDT-SHORT-exit",
    "at": "2026-11-06T18:46:00.000Z",
@@ -452,18 +455,6 @@
    "side": "short",
    "price": 10.894,
    "netBps": -5.43,
-   "reason": null
-  },
-  {
-   "id": "res-1793966400000-1793972100000-ADAUSDT-SHORT",
-   "at": "2026-11-06T13:35:03.610Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "ADAUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.1864,
-   "netBps": 14.97,
    "reason": null
   }
  ],
