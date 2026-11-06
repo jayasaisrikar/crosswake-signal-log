@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-06T13:40:54.174Z",
+ "generatedAt": "2026-11-06T13:56:01.832Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-06T13:40:53.301Z",
+  "lastMessageAt": "2026-11-06T13:56:01.575Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,24 @@
      "targetBps": 263.12,
      "stopBps": 452.51,
      "exitBy": "2026-11-06T17:36:00.000Z"
+    },
+    {
+     "symbol": "AVAXUSDT",
+     "side": "SHORT",
+     "since": "2026-11-06T13:41:00.000Z",
+     "markBps": null,
+     "targetBps": 303.82,
+     "stopBps": 456.82,
+     "exitBy": "2026-11-06T17:41:00.000Z"
+    },
+    {
+     "symbol": "LINKUSDT",
+     "side": "SHORT",
+     "since": "2026-11-06T13:41:00.000Z",
+     "markBps": null,
+     "targetBps": 297.19,
+     "stopBps": 463.68,
+     "exitBy": "2026-11-06T17:41:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T13:40:00.000Z",
+   "lastEventAt": "2026-11-06T13:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-06T13:40:00.000Z",
+   "lastEventAt": "2026-11-06T13:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
