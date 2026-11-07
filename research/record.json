@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-07T14:23:39.149Z",
+ "generatedAt": "2026-11-07T14:38:46.234Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-07T14:23:38.641Z",
+  "lastMessageAt": "2026-11-07T14:38:45.230Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,7 +143,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "LINKUSDT",
+     "side": "SHORT",
+     "since": "2026-11-07T14:36:00.000Z",
+     "markBps": null,
+     "targetBps": 282.96,
+     "stopBps": 464.1,
+     "exitBy": "2026-11-07T18:36:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 90,
     "winRate": null,
@@ -152,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-07T14:23:00.000Z",
+   "lastEventAt": "2026-11-07T14:38:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-07T14:23:00.000Z",
+   "lastEventAt": "2026-11-07T14:38:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -304,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1794052800000-1794062100000-LINKUSDT-SHORT",
+   "at": "2026-11-07T14:35:04.628Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "LINKUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 10.938,
+   "netBps": -3.38,
+   "reason": null
+  },
+  {
    "id": "res-1793980800000-1793984700000-SOLUSDT-LONG-exit",
    "at": "2026-11-06T21:06:00.000Z",
    "engine": "residual-spot-v003-89f11b1593e6",
@@ -433,18 +455,6 @@
    "side": "short",
    "price": 0.07303,
    "netBps": 29.79,
-   "reason": null
-  },
-  {
-   "id": "res-1793966400000-1793972400000-AVAXUSDT-SHORT",
-   "at": "2026-11-06T13:40:05.302Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.387,
-   "netBps": 13.84,
    "reason": null
   }
  ],
