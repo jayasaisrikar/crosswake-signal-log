@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-07T18:25:46.513Z",
+ "generatedAt": "2026-11-07T18:40:53.677Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-07T18:25:45.853Z",
+  "lastMessageAt": "2026-11-07T18:40:53.332Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LINKUSDT",
-     "side": "SHORT",
-     "since": "2026-11-07T14:36:00.000Z",
-     "markBps": null,
-     "targetBps": 282.96,
-     "stopBps": 464.1,
-     "exitBy": "2026-11-07T18:36:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 90,
+    "trades": 91,
     "winRate": null,
-    "netExpectancyBps": -26.88,
+    "netExpectancyBps": -26.4,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-07T18:25:00.000Z",
+   "lastEventAt": "2026-11-07T18:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-07T18:25:00.000Z",
+   "lastEventAt": "2026-11-07T18:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794052800000-1794062100000-LINKUSDT-SHORT-exit",
+   "at": "2026-11-07T18:36:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LINKUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 10.91,
+   "netBps": 16.98,
+   "reason": "time"
+  },
+  {
    "id": "res-1794052800000-1794062100000-LINKUSDT-SHORT",
    "at": "2026-11-07T14:35:04.628Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 0.1888,
    "netBps": 40.45,
-   "reason": null
-  },
-  {
-   "id": "res-1793973600000-1793976300000-DOGEUSDT-SHORT",
-   "at": "2026-11-06T14:45:04.529Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "DOGEUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 0.07303,
-   "netBps": 29.79,
    "reason": null
   }
  ],
