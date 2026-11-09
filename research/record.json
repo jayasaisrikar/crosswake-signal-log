@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T18:51:47.901Z",
+ "generatedAt": "2026-11-09T19:06:56.749Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T18:51:47.780Z",
+  "lastMessageAt": "2026-11-09T19:06:56.093Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,15 @@
      "targetBps": 450.11,
      "stopBps": 502.74,
      "exitBy": "2026-11-09T20:51:00.000Z"
+    },
+    {
+     "symbol": "UNIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-09T18:56:00.000Z",
+     "markBps": null,
+     "targetBps": 480.61,
+     "stopBps": 643.45,
+     "exitBy": "2026-11-09T22:56:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T18:51:00.000Z",
+   "lastEventAt": "2026-11-09T19:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T18:51:00.000Z",
+   "lastEventAt": "2026-11-09T19:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -313,6 +322,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794240000000-1794250500000-UNIUSDT-SHORT",
+   "at": "2026-11-09T18:55:03.922Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 7.04,
+   "netBps": 30.26,
+   "reason": null
+  },
   {
    "id": "res-1794232800000-1794235200000-SUIUSDT-SHORT-exit",
    "at": "2026-11-09T18:41:00.000Z",
@@ -444,18 +465,6 @@
    "price": 2128.2,
    "netBps": 5.22,
    "reason": null
-  },
-  {
-   "id": "res-1794182400000-1794187500000-NEARUSDT-SHORT-exit",
-   "at": "2026-11-09T05:26:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "NEARUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 3.571,
-   "netBps": 89.29,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-09T16:05:08.295Z"
