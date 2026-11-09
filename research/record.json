@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T12:17:36.226Z",
+ "generatedAt": "2026-11-09T12:32:45.461Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T12:17:35.823Z",
+  "lastMessageAt": "2026-11-09T12:32:44.967Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "AVAXUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T10:06:00.000Z",
-     "markBps": null,
-     "targetBps": 319.25,
-     "stopBps": 468.83,
-     "exitBy": "2026-11-09T14:06:00.000Z"
-    },
-    {
      "symbol": "ADAUSDT",
      "side": "SHORT",
      "since": "2026-11-09T10:11:00.000Z",
@@ -164,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 95,
+    "trades": 96,
     "winRate": null,
-    "netExpectancyBps": -19.1,
+    "netExpectancyBps": -24.42,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T12:17:00.000Z",
+   "lastEventAt": "2026-11-09T12:32:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T12:17:00.000Z",
+   "lastEventAt": "2026-11-09T12:32:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -322,6 +313,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794211200000-1794218700000-AVAXUSDT-SHORT-exit",
+   "at": "2026-11-09T12:31:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "AVAXUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 8.4,
+   "netBps": -529.14,
+   "reason": "stop"
+  },
   {
    "id": "res-1794211200000-1794219000000-ADAUSDT-SHORT",
    "at": "2026-11-09T10:10:04.055Z",
@@ -453,18 +456,6 @@
    "price": 10.91,
    "netBps": 16.98,
    "reason": "time"
-  },
-  {
-   "id": "res-1794052800000-1794062100000-LINKUSDT-SHORT",
-   "at": "2026-11-07T14:35:04.628Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 10.938,
-   "netBps": -3.38,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-09T12:05:06.271Z"
