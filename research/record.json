@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T06:59:27.516Z",
+ "generatedAt": "2026-11-09T07:14:36.239Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T06:59:26.874Z",
+  "lastMessageAt": "2026-11-09T07:14:35.314Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,26 +152,17 @@
      "targetBps": 262.52,
      "stopBps": 399.05,
      "exitBy": "2026-11-09T07:31:00.000Z"
-    },
-    {
-     "symbol": "ETHUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T05:36:00.000Z",
-     "markBps": null,
-     "targetBps": 142.68,
-     "stopBps": 342.03,
-     "exitBy": "2026-11-09T09:36:00.000Z"
     }
    ],
    "stats": {
-    "trades": 93,
+    "trades": 94,
     "winRate": null,
-    "netExpectancyBps": -22.89,
+    "netExpectancyBps": -21.31,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T06:59:00.000Z",
+   "lastEventAt": "2026-11-09T07:14:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T06:59:00.000Z",
+   "lastEventAt": "2026-11-09T07:14:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,12 +307,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-09T06:06:08.144Z",
+   "lastEventAt": "2026-11-09T07:06:18.036Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794196800000-1794202500000-ETHUSDT-SHORT-exit",
+   "at": "2026-11-09T07:13:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ETHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 2096.798015,
+   "netBps": 125.67,
+   "reason": "target"
+  },
   {
    "id": "res-1794182400000-1794195000000-SOLUSDT-SHORT-exit",
    "at": "2026-11-09T06:42:00.000Z",
@@ -452,18 +455,6 @@
    "side": "short",
    "price": 0.188,
    "netBps": 47.92,
-   "reason": "time"
-  },
-  {
-   "id": "res-1793973600000-1793976300000-DOGEUSDT-SHORT-exit",
-   "at": "2026-11-06T18:46:00.000Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "exit",
-   "symbol": "DOGEUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 0.07296,
-   "netBps": 20.38,
    "reason": "time"
   }
  ],
