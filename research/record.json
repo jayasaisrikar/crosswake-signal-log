@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T22:53:57.101Z",
+ "generatedAt": "2026-11-09T23:09:05.085Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T22:53:56.793Z",
+  "lastMessageAt": "2026-11-09T23:09:04.407Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "UNIUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T18:56:00.000Z",
-     "markBps": null,
-     "targetBps": 480.61,
-     "stopBps": 643.45,
-     "exitBy": "2026-11-09T22:56:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 98,
+    "trades": 99,
     "winRate": null,
-    "netExpectancyBps": -24.97,
+    "netExpectancyBps": -25.01,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T22:53:00.000Z",
+   "lastEventAt": "2026-11-09T23:09:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T22:53:00.000Z",
+   "lastEventAt": "2026-11-09T23:09:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +297,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-09T22:08:38.007Z",
+   "lastEventAt": "2026-11-09T23:08:45.579Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794240000000-1794250500000-UNIUSDT-SHORT-exit",
+   "at": "2026-11-09T22:56:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 7.048,
+   "netBps": -28.79,
+   "reason": "time"
+  },
   {
    "id": "res-1794240000000-1794243000000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-09T20:51:00.000Z",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 2096.798015,
    "netBps": 125.67,
-   "reason": "target"
-  },
-  {
-   "id": "res-1794182400000-1794195000000-SOLUSDT-SHORT-exit",
-   "at": "2026-11-09T06:42:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 86.003295,
-   "netBps": 184.17,
    "reason": "target"
   }
  ],
