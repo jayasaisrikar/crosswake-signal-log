@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T07:29:45.457Z",
+ "generatedAt": "2026-11-09T07:44:54.558Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T07:29:44.594Z",
+  "lastMessageAt": "2026-11-09T07:44:53.874Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LTCUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T03:31:00.000Z",
-     "markBps": null,
-     "targetBps": 262.52,
-     "stopBps": 399.05,
-     "exitBy": "2026-11-09T07:31:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 94,
+    "trades": 95,
     "winRate": null,
-    "netExpectancyBps": -21.31,
+    "netExpectancyBps": -19.1,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T07:29:00.000Z",
+   "lastEventAt": "2026-11-09T07:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T07:29:00.000Z",
+   "lastEventAt": "2026-11-09T07:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794182400000-1794195000000-LTCUSDT-SHORT-exit",
+   "at": "2026-11-09T07:31:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LTCUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 49.89,
+   "netBps": 188.2,
+   "reason": "time"
+  },
+  {
    "id": "res-1794196800000-1794202500000-ETHUSDT-SHORT-exit",
    "at": "2026-11-09T07:13:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 90.24,
    "netBps": 57.52,
-   "reason": "time"
-  },
-  {
-   "id": "res-1793973600000-1793976300000-ADAUSDT-SHORT-exit",
-   "at": "2026-11-06T18:46:00.000Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "exit",
-   "symbol": "ADAUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 0.188,
-   "netBps": 47.92,
    "reason": "time"
   }
  ],
