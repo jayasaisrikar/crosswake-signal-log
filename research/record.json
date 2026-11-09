@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T16:35:19.965Z",
+ "generatedAt": "2026-11-09T16:50:29.045Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T16:35:19.616Z",
+  "lastMessageAt": "2026-11-09T16:50:28.950Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T16:35:00.000Z",
+   "lastEventAt": "2026-11-09T16:50:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T16:35:00.000Z",
+   "lastEventAt": "2026-11-09T16:50:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1794240000000-1794243000000-AVAXUSDT-SHORT",
+   "at": "2026-11-09T16:50:03.859Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "AVAXUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 8.738,
+   "netBps": -10.85,
+   "reason": null
+  },
+  {
    "id": "res-1794232800000-1794235200000-SUIUSDT-SHORT",
    "at": "2026-11-09T14:40:04.280Z",
    "engine": "residual-spot-v003-89f11b1593e6",
@@ -443,18 +455,6 @@
    "side": "short",
    "price": 50.93,
    "netBps": 15.41,
-   "reason": null
-  },
-  {
-   "id": "res-1794182400000-1794195000000-SOLUSDT-SHORT",
-   "at": "2026-11-09T03:30:03.936Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 87.77,
-   "netBps": 0.73,
    "reason": null
   }
  ],
