@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T20:37:51.852Z",
+ "generatedAt": "2026-11-09T20:52:54.759Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T20:37:51.624Z",
+  "lastMessageAt": "2026-11-09T20:52:54.098Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "AVAXUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T16:51:00.000Z",
-     "markBps": null,
-     "targetBps": 450.11,
-     "stopBps": 502.74,
-     "exitBy": "2026-11-09T20:51:00.000Z"
-    },
-    {
      "symbol": "UNIUSDT",
      "side": "SHORT",
      "since": "2026-11-09T18:56:00.000Z",
@@ -164,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 97,
+    "trades": 98,
     "winRate": null,
-    "netExpectancyBps": -26.62,
+    "netExpectancyBps": -24.97,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T20:37:00.000Z",
+   "lastEventAt": "2026-11-09T20:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T20:37:00.000Z",
+   "lastEventAt": "2026-11-09T20:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -322,6 +313,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794240000000-1794243000000-AVAXUSDT-SHORT-exit",
+   "at": "2026-11-09T20:51:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "AVAXUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 8.603,
+   "netBps": 135.12,
+   "reason": "time"
+  },
   {
    "id": "res-1794240000000-1794250500000-UNIUSDT-SHORT",
    "at": "2026-11-09T18:55:03.922Z",
@@ -453,18 +456,6 @@
    "price": 86.003295,
    "netBps": 184.17,
    "reason": "target"
-  },
-  {
-   "id": "res-1794196800000-1794202500000-ETHUSDT-SHORT",
-   "at": "2026-11-09T05:35:04.236Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "ETHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 2128.2,
-   "netBps": 5.22,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-09T20:05:09.315Z"
