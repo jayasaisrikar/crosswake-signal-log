@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T06:29:10.883Z",
+ "generatedAt": "2026-11-09T06:44:18.960Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T06:29:10.455Z",
+  "lastMessageAt": "2026-11-09T06:44:18.743Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -154,15 +154,6 @@
      "exitBy": "2026-11-09T07:31:00.000Z"
     },
     {
-     "symbol": "SOLUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T03:31:00.000Z",
-     "markBps": null,
-     "targetBps": 202.2,
-     "stopBps": 388,
-     "exitBy": "2026-11-09T07:31:00.000Z"
-    },
-    {
      "symbol": "ETHUSDT",
      "side": "SHORT",
      "since": "2026-11-09T05:36:00.000Z",
@@ -173,14 +164,14 @@
     }
    ],
    "stats": {
-    "trades": 92,
+    "trades": 93,
     "winRate": null,
-    "netExpectancyBps": -25.14,
+    "netExpectancyBps": -22.89,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T06:29:00.000Z",
+   "lastEventAt": "2026-11-09T06:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T06:29:00.000Z",
+   "lastEventAt": "2026-11-09T06:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -332,6 +323,18 @@
  ],
  "events": [
   {
+   "id": "res-1794182400000-1794195000000-SOLUSDT-SHORT-exit",
+   "at": "2026-11-09T06:42:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 86.003295,
+   "netBps": 184.17,
+   "reason": "target"
+  },
+  {
    "id": "res-1794196800000-1794202500000-ETHUSDT-SHORT",
    "at": "2026-11-09T05:35:04.236Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -461,18 +464,6 @@
    "side": "short",
    "price": 0.07296,
    "netBps": 20.38,
-   "reason": "time"
-  },
-  {
-   "id": "res-1793966400000-1793972400000-AVAXUSDT-SHORT-exit",
-   "at": "2026-11-06T17:41:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.36,
-   "netBps": 4.06,
    "reason": "time"
   }
  ],
