@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T14:34:00.670Z",
+ "generatedAt": "2026-11-09T14:49:10.469Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T14:33:59.726Z",
+  "lastMessageAt": "2026-11-09T14:49:10.145Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T14:33:00.000Z",
+   "lastEventAt": "2026-11-09T14:49:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -164,7 +164,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "SUIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-09T14:41:00.000Z",
+     "markBps": null,
+     "targetBps": 239.1,
+     "stopBps": 247.7,
+     "exitBy": "2026-11-09T18:41:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 7,
     "winRate": null,
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T14:33:00.000Z",
+   "lastEventAt": "2026-11-09T14:49:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -304,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1794232800000-1794235200000-SUIUSDT-SHORT",
+   "at": "2026-11-09T14:40:04.280Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "SUIUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 0.8541,
+   "netBps": 41.26,
+   "reason": null
+  },
+  {
    "id": "res-1794211200000-1794219000000-ADAUSDT-SHORT-exit",
    "at": "2026-11-09T14:11:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -433,18 +455,6 @@
    "side": "short",
    "price": 87.77,
    "netBps": 0.73,
-   "reason": null
-  },
-  {
-   "id": "res-1794182400000-1794187500000-NEARUSDT-SHORT",
-   "at": "2026-11-09T01:25:03.843Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "NEARUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 3.607,
-   "netBps": -16,
    "reason": null
   }
  ],
