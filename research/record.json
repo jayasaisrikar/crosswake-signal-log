@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09T14:03:41.973Z",
+ "generatedAt": "2026-11-09T14:18:51.005Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-09T14:03:41.790Z",
+  "lastMessageAt": "2026-11-09T14:18:50.254Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "ADAUSDT",
-     "side": "SHORT",
-     "since": "2026-11-09T10:11:00.000Z",
-     "markBps": null,
-     "targetBps": 266.46,
-     "stopBps": 465.27,
-     "exitBy": "2026-11-09T14:11:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 96,
+    "trades": 97,
     "winRate": null,
-    "netExpectancyBps": -24.42,
+    "netExpectancyBps": -26.62,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T14:03:00.000Z",
+   "lastEventAt": "2026-11-09T14:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-09T14:03:00.000Z",
+   "lastEventAt": "2026-11-09T14:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +297,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-09T13:07:11.395Z",
+   "lastEventAt": "2026-11-09T14:07:19.196Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794211200000-1794219000000-ADAUSDT-SHORT-exit",
+   "at": "2026-11-09T14:11:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ADAUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.1797,
+   "netBps": -237.84,
+   "reason": "time"
+  },
   {
    "id": "res-1794211200000-1794218700000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-09T12:31:00.000Z",
@@ -444,18 +446,6 @@
    "price": 3.607,
    "netBps": -16,
    "reason": null
-  },
-  {
-   "id": "res-1794052800000-1794062100000-LINKUSDT-SHORT-exit",
-   "at": "2026-11-07T18:36:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 10.91,
-   "netBps": 16.98,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-09T12:05:06.271Z"
