@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-10T16:33:02.152Z",
+ "generatedAt": "2026-11-10T16:48:10.641Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-10T16:33:01.588Z",
+  "lastMessageAt": "2026-11-10T16:48:09.939Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "NEARUSDT",
-     "side": "SHORT",
-     "since": "2026-11-10T14:01:00.000Z",
-     "markBps": null,
-     "targetBps": 459.9,
-     "stopBps": 656.52,
-     "exitBy": "2026-11-10T18:01:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 102,
+    "trades": 103,
     "winRate": null,
-    "netExpectancyBps": -24.92,
+    "netExpectancyBps": -20.46,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-10T16:32:00.000Z",
+   "lastEventAt": "2026-11-10T16:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-10T16:32:00.000Z",
+   "lastEventAt": "2026-11-10T16:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -313,6 +303,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794312000000-1794319200000-NEARUSDT-SHORT-exit",
+   "at": "2026-11-10T16:48:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "NEARUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 3.478297,
+   "netBps": 434.49,
+   "reason": "target"
+  },
   {
    "id": "res-1794312000000-1794319200000-NEARUSDT-SHORT",
    "at": "2026-11-10T14:00:03.903Z",
@@ -444,18 +446,6 @@
    "price": 0.8505,
    "netBps": 19.65,
    "reason": "time"
-  },
-  {
-   "id": "res-1794240000000-1794243000000-AVAXUSDT-SHORT",
-   "at": "2026-11-09T16:50:03.859Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.738,
-   "netBps": -10.85,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-10T16:05:12.349Z"
