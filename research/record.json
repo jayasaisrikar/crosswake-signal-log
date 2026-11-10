@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-10T06:42:48.293Z",
+ "generatedAt": "2026-11-10T06:57:55.964Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-10T06:42:47.758Z",
+  "lastMessageAt": "2026-11-10T06:57:55.434Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 283.96,
      "stopBps": 497.14,
      "exitBy": "2026-11-10T07:41:00.000Z"
+    },
+    {
+     "symbol": "UNIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-10T06:56:00.000Z",
+     "markBps": null,
+     "targetBps": 482.65,
+     "stopBps": 647.61,
+     "exitBy": "2026-11-10T10:56:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-10T06:42:00.000Z",
+   "lastEventAt": "2026-11-10T06:57:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-10T06:42:00.000Z",
+   "lastEventAt": "2026-11-10T06:57:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +332,18 @@
  ],
  "events": [
   {
+   "id": "res-1794283200000-1794293700000-UNIUSDT-SHORT",
+   "at": "2026-11-10T06:55:03.879Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 7.072,
+   "netBps": 36.45,
+   "reason": null
+  },
+  {
    "id": "res-1794268800000-1794282000000-SUIUSDT-SHORT",
    "at": "2026-11-10T03:40:03.831Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -452,18 +473,6 @@
    "side": "short",
    "price": 0.1757,
    "netBps": 7.61,
-   "reason": null
-  },
-  {
-   "id": "res-1794211200000-1794218700000-AVAXUSDT-SHORT",
-   "at": "2026-11-09T10:05:03.872Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 7.996,
-   "netBps": 17.13,
    "reason": null
   }
  ],
