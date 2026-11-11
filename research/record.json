@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T18:31:46.765Z",
+ "generatedAt": "2026-11-11T18:46:55.556Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-11T18:31:46.347Z",
+  "lastMessageAt": "2026-11-11T18:46:54.761Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "SOLUSDT",
-     "side": "SHORT",
-     "since": "2026-11-11T14:36:00.000Z",
-     "markBps": null,
-     "targetBps": 207.61,
-     "stopBps": 409.42,
-     "exitBy": "2026-11-11T18:36:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 110,
+    "trades": 111,
     "winRate": null,
-    "netExpectancyBps": -20.58,
+    "netExpectancyBps": -21.97,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T18:31:00.000Z",
+   "lastEventAt": "2026-11-11T18:46:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T18:31:00.000Z",
+   "lastEventAt": "2026-11-11T18:46:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794398400000-1794407700000-SOLUSDT-SHORT-exit",
+   "at": "2026-11-11T18:36:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 85.26,
+   "netBps": -174.78,
+   "reason": "time"
+  },
+  {
    "id": "res-1794398400000-1794398700000-NEARUSDT-SHORT-exit",
    "at": "2026-11-11T16:06:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 8.42,
    "netBps": -25.51,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794340800000-1794344700000-XRPUSDT-LONG-exit",
-   "at": "2026-11-11T01:06:00.000Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "exit",
-   "symbol": "XRPUSDT",
-   "market": "spot",
-   "side": "long",
-   "price": 1.0512,
-   "netBps": -140.73,
    "reason": "time"
   }
  ],
