@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T14:29:35.786Z",
+ "generatedAt": "2026-11-11T14:44:44.158Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-11T14:29:35.012Z",
+  "lastMessageAt": "2026-11-11T14:44:43.308Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 967.08,
      "stopBps": 703.89,
      "exitBy": "2026-11-11T16:06:00.000Z"
+    },
+    {
+     "symbol": "SOLUSDT",
+     "side": "SHORT",
+     "since": "2026-11-11T14:36:00.000Z",
+     "markBps": null,
+     "targetBps": 207.61,
+     "stopBps": 409.42,
+     "exitBy": "2026-11-11T18:36:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T14:29:00.000Z",
+   "lastEventAt": "2026-11-11T14:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T14:29:00.000Z",
+   "lastEventAt": "2026-11-11T14:44:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +332,18 @@
  ],
  "events": [
   {
+   "id": "res-1794398400000-1794407700000-SOLUSDT-SHORT",
+   "at": "2026-11-11T14:35:03.862Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 83.87,
+   "netBps": 5.91,
+   "reason": null
+  },
+  {
    "id": "res-1794384000000-1794388500000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-11T13:16:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -452,18 +473,6 @@
    "side": "short",
    "price": 0.06838,
    "netBps": 17.07,
-   "reason": null
-  },
-  {
-   "id": "res-1794355200000-1794356700000-AVAXUSDT-SHORT",
-   "at": "2026-11-11T00:25:04.203Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.417,
-   "netBps": 27.53,
    "reason": null
   }
  ],
