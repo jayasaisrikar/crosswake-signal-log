@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T04:39:30.353Z",
+ "generatedAt": "2026-11-11T04:54:38.265Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-11T04:39:29.527Z",
+  "lastMessageAt": "2026-11-11T04:54:37.777Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,35 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LTCUSDT",
-     "side": "SHORT",
-     "since": "2026-11-11T00:46:00.000Z",
-     "markBps": null,
-     "targetBps": 272.22,
-     "stopBps": 414.83,
-     "exitBy": "2026-11-11T04:46:00.000Z"
-    },
-    {
-     "symbol": "DOGEUSDT",
-     "side": "SHORT",
-     "since": "2026-11-11T00:46:00.000Z",
-     "markBps": null,
-     "targetBps": 280.09,
-     "stopBps": 407.76,
-     "exitBy": "2026-11-11T04:46:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 105,
+    "trades": 107,
     "winRate": null,
-    "netExpectancyBps": -20.15,
+    "netExpectancyBps": -20.43,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T04:39:00.000Z",
+   "lastEventAt": "2026-11-11T04:54:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T04:39:00.000Z",
+   "lastEventAt": "2026-11-11T04:54:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +304,30 @@
  ],
  "events": [
   {
+   "id": "res-1794355200000-1794357900000-LTCUSDT-SHORT-exit",
+   "at": "2026-11-11T04:46:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LTCUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 51.07,
+   "netBps": -51.37,
+   "reason": "time"
+  },
+  {
+   "id": "res-1794355200000-1794357900000-DOGEUSDT-SHORT-exit",
+   "at": "2026-11-11T04:46:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "DOGEUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.06834,
+   "netBps": -18.93,
+   "reason": "time"
+  },
+  {
    "id": "res-1794355200000-1794356700000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-11T04:26:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -441,30 +446,6 @@
    "price": 3.634,
    "netBps": -16,
    "reason": null
-  },
-  {
-   "id": "res-1794283200000-1794293700000-UNIUSDT-SHORT-exit",
-   "at": "2026-11-10T10:56:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "UNIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 6.951,
-   "netBps": 160.27,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794268800000-1794282000000-SUIUSDT-SHORT-exit",
-   "at": "2026-11-10T07:41:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "SUIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.8492,
-   "netBps": -91.94,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-11T04:05:07.591Z"
