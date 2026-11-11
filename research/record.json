@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T00:37:25.149Z",
+ "generatedAt": "2026-11-11T00:52:33.309Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-11T00:37:24.839Z",
+  "lastMessageAt": "2026-11-11T00:52:33.125Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,24 @@
      "targetBps": 407.26,
      "stopBps": 529.12,
      "exitBy": "2026-11-11T04:26:00.000Z"
+    },
+    {
+     "symbol": "LTCUSDT",
+     "side": "SHORT",
+     "since": "2026-11-11T00:46:00.000Z",
+     "markBps": null,
+     "targetBps": 272.22,
+     "stopBps": 414.83,
+     "exitBy": "2026-11-11T04:46:00.000Z"
+    },
+    {
+     "symbol": "DOGEUSDT",
+     "side": "SHORT",
+     "since": "2026-11-11T00:46:00.000Z",
+     "markBps": null,
+     "targetBps": 280.09,
+     "stopBps": 407.76,
+     "exitBy": "2026-11-11T04:46:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T00:37:00.000Z",
+   "lastEventAt": "2026-11-11T00:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -193,7 +211,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T00:37:00.000Z",
+   "lastEventAt": "2026-11-11T00:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -324,6 +342,30 @@
  ],
  "events": [
   {
+   "id": "res-1794355200000-1794357900000-LTCUSDT-SHORT",
+   "at": "2026-11-11T00:45:04.184Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "LTCUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 50.9,
+   "netBps": 20.19,
+   "reason": null
+  },
+  {
+   "id": "res-1794355200000-1794357900000-DOGEUSDT-SHORT",
+   "at": "2026-11-11T00:45:04.184Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "DOGEUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.06838,
+   "netBps": 17.07,
+   "reason": null
+  },
+  {
    "id": "res-1794355200000-1794356700000-AVAXUSDT-SHORT",
    "at": "2026-11-11T00:25:04.203Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -441,30 +483,6 @@
    "side": "short",
    "price": 7.072,
    "netBps": 36.45,
-   "reason": null
-  },
-  {
-   "id": "res-1794268800000-1794282000000-SUIUSDT-SHORT",
-   "at": "2026-11-10T03:40:03.831Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "SUIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.8429,
-   "netBps": -5.44,
-   "reason": null
-  },
-  {
-   "id": "res-1794268800000-1794281400000-ADAUSDT-SHORT",
-   "at": "2026-11-10T03:30:04.101Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "ADAUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.1774,
-   "netBps": 2.91,
    "reason": null
   }
  ],
