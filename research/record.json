@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-11T16:00:24.414Z",
+ "generatedAt": "2026-11-11T16:15:32.449Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-11T16:00:23.837Z",
+  "lastMessageAt": "2026-11-11T16:15:32.108Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,24 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "DOTUSDT",
-     "side": "SHORT",
-     "since": "2026-11-11T12:01:00.000Z",
-     "markBps": null,
-     "targetBps": 363.81,
-     "stopBps": 512.09,
-     "exitBy": "2026-11-11T16:01:00.000Z"
-    },
-    {
-     "symbol": "NEARUSDT",
-     "side": "SHORT",
-     "since": "2026-11-11T12:06:00.000Z",
-     "markBps": null,
-     "targetBps": 967.08,
-     "stopBps": 703.89,
-     "exitBy": "2026-11-11T16:06:00.000Z"
-    },
-    {
      "symbol": "SOLUSDT",
      "side": "SHORT",
      "since": "2026-11-11T14:36:00.000Z",
@@ -173,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 108,
+    "trades": 110,
     "winRate": null,
-    "netExpectancyBps": -19.93,
+    "netExpectancyBps": -20.58,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T16:00:00.000Z",
+   "lastEventAt": "2026-11-11T16:15:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-11T16:00:00.000Z",
+   "lastEventAt": "2026-11-11T16:15:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -325,12 +307,36 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-11T15:07:41.247Z",
+   "lastEventAt": "2026-11-11T16:07:52.847Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794398400000-1794398700000-NEARUSDT-SHORT-exit",
+   "at": "2026-11-11T16:06:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "NEARUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 3.743,
+   "netBps": 77.64,
+   "reason": "time"
+  },
+  {
+   "id": "res-1794398400000-1794398400000-DOTUSDT-SHORT-exit",
+   "at": "2026-11-11T16:01:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "DOTUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.8638,
+   "netBps": -189.12,
+   "reason": "time"
+  },
   {
    "id": "res-1794398400000-1794407700000-SOLUSDT-SHORT",
    "at": "2026-11-11T14:35:03.862Z",
@@ -450,31 +456,7 @@
    "price": 1.0512,
    "netBps": -140.73,
    "reason": "time"
-  },
-  {
-   "id": "res-1794355200000-1794357900000-LTCUSDT-SHORT",
-   "at": "2026-11-11T00:45:04.184Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "LTCUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 50.9,
-   "netBps": 20.19,
-   "reason": null
-  },
-  {
-   "id": "res-1794355200000-1794357900000-DOGEUSDT-SHORT",
-   "at": "2026-11-11T00:45:04.184Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "DOGEUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.06838,
-   "netBps": 17.07,
-   "reason": null
   }
  ],
- "digestLastPostAt": "2026-11-11T12:05:08.705Z"
+ "digestLastPostAt": "2026-11-11T16:05:05.939Z"
 }
