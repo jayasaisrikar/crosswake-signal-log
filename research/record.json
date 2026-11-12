@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T09:40:01.297Z",
+ "generatedAt": "2026-11-12T09:55:08.489Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-12T09:40:00.873Z",
+  "lastMessageAt": "2026-11-12T09:55:08.279Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T09:39:00.000Z",
+   "lastEventAt": "2026-11-12T09:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T09:39:00.000Z",
+   "lastEventAt": "2026-11-12T09:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -304,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794470400000-1794477300000-XRPUSDT-SHORT",
+   "at": "2026-11-12T09:55:03.883Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.0515,
+   "netBps": 8.16,
+   "reason": null
+  },
+  {
    "id": "res-1794398400000-1794407700000-SOLUSDT-SHORT-exit",
    "at": "2026-11-11T18:36:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -433,18 +445,6 @@
    "side": "short",
    "price": 0.06834,
    "netBps": -18.93,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794355200000-1794356700000-AVAXUSDT-SHORT-exit",
-   "at": "2026-11-11T04:26:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "AVAXUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.42,
-   "netBps": -25.51,
    "reason": "time"
   }
  ],
