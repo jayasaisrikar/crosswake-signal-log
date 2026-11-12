@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T20:15:58.862Z",
+ "generatedAt": "2026-11-12T20:31:06.973Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-12T20:15:58.350Z",
+  "lastMessageAt": "2026-11-12T20:31:06.743Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,15 @@
      "targetBps": 305.65,
      "stopBps": 478.18,
      "exitBy": "2026-11-12T22:51:00.000Z"
+    },
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-12T20:31:00.000Z",
+     "markBps": null,
+     "targetBps": 280.77,
+     "stopBps": 398.77,
+     "exitBy": "2026-11-13T00:31:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T20:15:00.000Z",
+   "lastEventAt": "2026-11-12T20:31:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T20:15:00.000Z",
+   "lastEventAt": "2026-11-12T20:31:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +323,18 @@
  ],
  "events": [
   {
+   "id": "res-1794513600000-1794515400000-XRPUSDT-SHORT",
+   "at": "2026-11-12T20:30:03.878Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.0335,
+   "netBps": 4.29,
+   "reason": null
+  },
+  {
    "id": "res-1794492000000-1794495300000-SUIUSDT-SHORT-exit",
    "at": "2026-11-12T18:56:00.000Z",
    "engine": "residual-spot-v003-89f11b1593e6",
@@ -443,18 +464,6 @@
    "side": "short",
    "price": 9.882,
    "netBps": 22.58,
-   "reason": null
-  },
-  {
-   "id": "res-1794484800000-1794494700000-LTCUSDT-SHORT",
-   "at": "2026-11-12T14:45:03.926Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "LTCUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 48.72,
-   "netBps": 28.33,
    "reason": null
   }
  ],
