@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T09:55:08.489Z",
+ "generatedAt": "2026-11-12T10:10:16.510Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-12T09:55:08.279Z",
+  "lastMessageAt": "2026-11-12T10:10:15.681Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,7 +143,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-12T09:56:00.000Z",
+     "markBps": null,
+     "targetBps": 273.67,
+     "stopBps": 397.04,
+     "exitBy": "2026-11-12T13:56:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 111,
     "winRate": null,
@@ -152,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T09:55:00.000Z",
+   "lastEventAt": "2026-11-12T10:10:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T09:55:00.000Z",
+   "lastEventAt": "2026-11-12T10:10:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -297,7 +307,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-12T09:06:33.398Z",
+   "lastEventAt": "2026-11-12T10:06:42.943Z",
    "telegram": false,
    "executionEnabled": false
   }
