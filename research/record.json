@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-12T20:46:14.301Z",
+ "generatedAt": "2026-11-12T21:01:43.677Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-12T20:46:14.237Z",
+  "lastMessageAt": "2026-11-12T21:01:43.600Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 280.77,
      "stopBps": 398.77,
      "exitBy": "2026-11-13T00:31:00.000Z"
+    },
+    {
+     "symbol": "SUIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-12T20:56:00.000Z",
+     "markBps": null,
+     "targetBps": 266.44,
+     "stopBps": 503.17,
+     "exitBy": "2026-11-13T00:56:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T20:46:00.000Z",
+   "lastEventAt": "2026-11-12T21:01:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-12T20:46:00.000Z",
+   "lastEventAt": "2026-11-12T21:01:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +332,18 @@
  ],
  "events": [
   {
+   "id": "res-1794513600000-1794516900000-SUIUSDT-SHORT",
+   "at": "2026-11-12T20:55:03.862Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "SUIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.8053,
+   "netBps": 0.65,
+   "reason": null
+  },
+  {
    "id": "res-1794513600000-1794515400000-XRPUSDT-SHORT",
    "at": "2026-11-12T20:30:03.878Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -452,18 +473,6 @@
    "side": "short",
    "price": 2000.61,
    "netBps": 10.39,
-   "reason": null
-  },
-  {
-   "id": "res-1794492000000-1794494700000-LINKUSDT-SHORT",
-   "at": "2026-11-12T14:45:04.718Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "LINKUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 9.882,
-   "netBps": 22.58,
    "reason": null
   }
  ],
