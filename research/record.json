@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T06:06:54.367Z",
+ "generatedAt": "2026-11-13T06:22:02.726Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T06:06:53.534Z",
+  "lastMessageAt": "2026-11-13T06:22:01.860Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T06:06:00.000Z",
+   "lastEventAt": "2026-11-13T06:21:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,6 +201,15 @@
      "targetBps": 137.09,
      "stopBps": 189.5,
      "exitBy": "2026-11-13T08:11:00.000Z"
+    },
+    {
+     "symbol": "SOLUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T06:11:00.000Z",
+     "markBps": null,
+     "targetBps": 138.46,
+     "stopBps": 193.43,
+     "exitBy": "2026-11-13T10:11:00.000Z"
     }
    ],
    "stats": {
@@ -211,7 +220,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T06:06:00.000Z",
+   "lastEventAt": "2026-11-13T06:21:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -341,6 +350,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794549600000-1794550200000-SOLUSDT-SHORT",
+   "at": "2026-11-13T06:10:04.359Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "SOLUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 78.65,
+   "netBps": 9.13,
+   "reason": null
+  },
   {
    "id": "res-1794549600000-1794549600000-SOLUSDT-SHORT",
    "at": "2026-11-13T06:00:07.966Z",
@@ -472,18 +493,6 @@
    "price": 10.128,
    "netBps": -13.88,
    "reason": null
-  },
-  {
-   "id": "res-1794513600000-1794515400000-XRPUSDT-SHORT-exit",
-   "at": "2026-11-13T00:31:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "XRPUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1.0387,
-   "netBps": -65.31,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
