@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T00:18:36.413Z",
+ "generatedAt": "2026-11-13T00:33:43.662Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T00:18:36.195Z",
+  "lastMessageAt": "2026-11-13T00:33:43.536Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-12T20:31:00.000Z",
-     "markBps": null,
-     "targetBps": 280.77,
-     "stopBps": 398.77,
-     "exitBy": "2026-11-13T00:31:00.000Z"
-    },
-    {
      "symbol": "SUIUSDT",
      "side": "SHORT",
      "since": "2026-11-12T20:56:00.000Z",
@@ -173,14 +164,14 @@
     }
    ],
    "stats": {
-    "trades": 116,
+    "trades": 117,
     "winRate": null,
-    "netExpectancyBps": -23.56,
+    "netExpectancyBps": -23.92,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:18:00.000Z",
+   "lastEventAt": "2026-11-13T00:33:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:18:00.000Z",
+   "lastEventAt": "2026-11-13T00:33:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -331,6 +322,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794513600000-1794515400000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-13T00:31:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.0387,
+   "netBps": -65.31,
+   "reason": "time"
+  },
   {
    "id": "res-1794513600000-1794524100000-DOGEUSDT-SHORT",
    "at": "2026-11-12T22:55:03.860Z",
@@ -462,18 +465,6 @@
    "price": 10.05,
    "netBps": -123.71,
    "reason": "time"
-  },
-  {
-   "id": "res-1794492000000-1794495300000-SUIUSDT-SHORT",
-   "at": "2026-11-12T14:55:04.026Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "SUIUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 0.7893,
-   "netBps": 45.89,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
