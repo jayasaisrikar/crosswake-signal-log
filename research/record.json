@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T04:05:45.084Z",
+ "generatedAt": "2026-11-13T04:20:53.951Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T04:05:44.167Z",
+  "lastMessageAt": "2026-11-13T04:20:53.471Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 263.62,
      "stopBps": 440.07,
      "exitBy": "2026-11-13T07:36:00.000Z"
+    },
+    {
+     "symbol": "SOLUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T04:06:00.000Z",
+     "markBps": null,
+     "targetBps": 199.82,
+     "stopBps": 388.17,
+     "exitBy": "2026-11-13T08:06:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T04:05:00.000Z",
+   "lastEventAt": "2026-11-13T04:20:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T04:11:00.000Z",
+     "markBps": null,
+     "targetBps": 137.09,
+     "stopBps": 189.5,
+     "exitBy": "2026-11-13T08:11:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 8,
     "winRate": null,
@@ -192,7 +211,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T04:05:00.000Z",
+   "lastEventAt": "2026-11-13T04:20:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,12 +335,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-13T03:05:39.315Z",
+   "lastEventAt": "2026-11-13T04:05:49.898Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794542400000-1794543000000-XRPUSDT-SHORT",
+   "at": "2026-11-13T04:10:04.265Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 1.0086,
+   "netBps": 20.82,
+   "reason": null
+  },
   {
    "id": "res-1794542400000-1794542700000-SOLUSDT-SHORT",
    "at": "2026-11-13T04:05:04.020Z",
@@ -453,18 +484,6 @@
    "price": 0.06631,
    "netBps": 6.56,
    "reason": null
-  },
-  {
-   "id": "res-1794499200000-1794509400000-ADAUSDT-SHORT-exit",
-   "at": "2026-11-12T22:51:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "ADAUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.1735,
-   "netBps": -138.52,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
