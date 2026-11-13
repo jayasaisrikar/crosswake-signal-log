@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T13:26:05.504Z",
+ "generatedAt": "2026-11-13T13:41:13.669Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T13:26:05.000Z",
+  "lastMessageAt": "2026-11-13T13:41:13.249Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T13:26:00.000Z",
+   "lastEventAt": "2026-11-13T13:41:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -164,26 +164,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "XRPUSDT",
-     "side": "LONG",
-     "since": "2026-11-13T10:16:00.000Z",
-     "markBps": null,
-     "targetBps": 137.76,
-     "stopBps": 189.33,
-     "exitBy": "2026-11-13T14:16:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 8,
+    "trades": 9,
     "winRate": null,
-    "netExpectancyBps": 47.75,
+    "netExpectancyBps": 54.97,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T13:26:00.000Z",
+   "lastEventAt": "2026-11-13T13:41:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -313,6 +303,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794564000000-1794564900000-XRPUSDT-LONG-exit",
+   "at": "2026-11-13T13:41:00.000Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "long",
+   "price": 1.041043,
+   "netBps": 112.71,
+   "reason": "target"
+  },
   {
    "id": "res-1794556800000-1794557700000-LTCUSDT-SHORT-exit",
    "at": "2026-11-13T12:16:00.000Z",
@@ -444,18 +446,6 @@
    "price": 8.298,
    "netBps": 40.44,
    "reason": null
-  },
-  {
-   "id": "res-1794549600000-1794550200000-SOLUSDT-SHORT-exit",
-   "at": "2026-11-13T07:02:00.000Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "exit",
-   "symbol": "SOLUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 80.41,
-   "netBps": -236.79,
-   "reason": "stop"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
