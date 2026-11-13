@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T07:37:44.014Z",
+ "generatedAt": "2026-11-13T07:52:52.446Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T07:37:43.807Z",
+  "lastMessageAt": "2026-11-13T07:52:52.133Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 519.53,
      "stopBps": 502.4,
      "exitBy": "2026-11-13T11:06:00.000Z"
+    },
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T07:41:00.000Z",
+     "markBps": null,
+     "targetBps": 529.96,
+     "stopBps": 380.34,
+     "exitBy": "2026-11-13T11:41:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T07:37:00.000Z",
+   "lastEventAt": "2026-11-13T07:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T07:37:00.000Z",
+   "lastEventAt": "2026-11-13T07:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -322,6 +331,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794542400000-1794555600000-XRPUSDT-SHORT",
+   "at": "2026-11-13T07:40:04.720Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.028,
+   "netBps": 19.04,
+   "reason": null
+  },
   {
    "id": "res-1794528000000-1794540900000-ADAUSDT-SHORT-exit",
    "at": "2026-11-13T07:36:00.000Z",
@@ -453,18 +474,6 @@
    "price": 0.169,
    "netBps": -5.06,
    "reason": null
-  },
-  {
-   "id": "res-1794528000000-1794530100000-LINKUSDT-SHORT-exit",
-   "at": "2026-11-13T03:21:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 9.805721,
-   "netBps": 292.64,
-   "reason": "target"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
