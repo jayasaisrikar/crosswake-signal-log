@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T11:40:05.470Z",
+ "generatedAt": "2026-11-13T11:55:14.956Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T11:40:04.773Z",
+  "lastMessageAt": "2026-11-13T11:55:14.181Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-13T07:41:00.000Z",
-     "markBps": null,
-     "targetBps": 529.96,
-     "stopBps": 380.34,
-     "exitBy": "2026-11-13T11:41:00.000Z"
-    },
-    {
      "symbol": "LTCUSDT",
      "side": "SHORT",
      "since": "2026-11-13T08:16:00.000Z",
@@ -164,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 125,
+    "trades": 126,
     "winRate": null,
-    "netExpectancyBps": -22.61,
+    "netExpectancyBps": -22.08,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T11:40:00.000Z",
+   "lastEventAt": "2026-11-13T11:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -202,7 +193,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T11:40:00.000Z",
+   "lastEventAt": "2026-11-13T11:55:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -332,6 +323,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794542400000-1794555600000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-13T11:41:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1.0212,
+   "netBps": 44.41,
+   "reason": "time"
+  },
   {
    "id": "res-1794542400000-1794553500000-AVAXUSDT-SHORT-exit",
    "at": "2026-11-13T11:06:00.000Z",
@@ -463,18 +466,6 @@
    "price": 3.497,
    "netBps": -259.12,
    "reason": "time"
-  },
-  {
-   "id": "res-1794549600000-1794550200000-SOLUSDT-SHORT",
-   "at": "2026-11-13T06:10:04.359Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "SOLUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 78.65,
-   "netBps": 9.13,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
