@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T14:57:05.071Z",
+ "generatedAt": "2026-11-13T15:12:15.329Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T14:57:04.805Z",
+  "lastMessageAt": "2026-11-13T15:12:15.075Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T14:57:00.000Z",
+   "lastEventAt": "2026-11-13T15:12:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +192,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T15:06:00.000Z",
+     "markBps": null,
+     "targetBps": 177.46,
+     "stopBps": 190.63,
+     "exitBy": "2026-11-13T19:06:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 9,
     "winRate": null,
@@ -201,7 +211,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T14:57:00.000Z",
+   "lastEventAt": "2026-11-13T15:12:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -325,12 +335,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-13T14:07:23.811Z",
+   "lastEventAt": "2026-11-13T15:07:31.545Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794578400000-1794582300000-XRPUSDT-SHORT",
+   "at": "2026-11-13T15:05:04.308Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 1.0299,
+   "netBps": 26.46,
+   "reason": null
+  },
   {
    "id": "res-1794571200000-1794579300000-BCHUSDT-SHORT",
    "at": "2026-11-13T14:15:04.318Z",
@@ -462,18 +484,6 @@
    "price": 79.99,
    "netBps": -183.04,
    "reason": "time"
-  },
-  {
-   "id": "res-1794542400000-1794555600000-XRPUSDT-SHORT",
-   "at": "2026-11-13T07:40:04.720Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "XRPUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1.028,
-   "netBps": 19.04,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
