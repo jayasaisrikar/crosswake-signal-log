@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T00:33:43.662Z",
+ "generatedAt": "2026-11-13T00:48:51.717Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T00:33:43.536Z",
+  "lastMessageAt": "2026-11-13T00:48:50.885Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 229.58,
      "stopBps": 391.41,
      "exitBy": "2026-11-13T02:56:00.000Z"
+    },
+    {
+     "symbol": "LINKUSDT",
+     "side": "SHORT",
+     "since": "2026-11-13T00:36:00.000Z",
+     "markBps": null,
+     "targetBps": 313.5,
+     "stopBps": 466.29,
+     "exitBy": "2026-11-13T04:36:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:33:00.000Z",
+   "lastEventAt": "2026-11-13T00:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:33:00.000Z",
+   "lastEventAt": "2026-11-13T00:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +332,18 @@
  ],
  "events": [
   {
+   "id": "res-1794528000000-1794530100000-LINKUSDT-SHORT",
+   "at": "2026-11-13T00:35:03.875Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "LINKUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 10.128,
+   "netBps": -13.88,
+   "reason": null
+  },
+  {
    "id": "res-1794513600000-1794515400000-XRPUSDT-SHORT-exit",
    "at": "2026-11-13T00:31:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -452,18 +473,6 @@
    "side": "short",
    "price": 10.026,
    "netBps": -159.41,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794484800000-1794494400000-LINKUSDT-SHORT-exit",
-   "at": "2026-11-12T18:41:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 10.05,
-   "netBps": -123.71,
    "reason": "time"
   }
  ],
