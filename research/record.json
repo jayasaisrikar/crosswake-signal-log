@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T07:07:27.345Z",
+ "generatedAt": "2026-11-13T07:22:36.129Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T07:07:27.052Z",
+  "lastMessageAt": "2026-11-13T07:22:35.371Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T07:07:00.000Z",
+   "lastEventAt": "2026-11-13T07:22:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,17 +192,7 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-13T04:11:00.000Z",
-     "markBps": null,
-     "targetBps": 137.09,
-     "stopBps": 189.5,
-     "exitBy": "2026-11-13T08:11:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
     "trades": 8,
     "winRate": null,
@@ -211,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T07:07:00.000Z",
+   "lastEventAt": "2026-11-13T07:22:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -341,6 +331,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794542400000-1794543000000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-13T07:09:00.000Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 1.0288,
+   "netBps": -222.23,
+   "reason": "stop"
+  },
   {
    "id": "res-1794542400000-1794553500000-AVAXUSDT-SHORT",
    "at": "2026-11-13T07:05:03.922Z",
@@ -472,18 +474,6 @@
    "price": 3.407,
    "netBps": 8.92,
    "reason": null
-  },
-  {
-   "id": "res-1794513600000-1794524100000-DOGEUSDT-SHORT-exit",
-   "at": "2026-11-13T02:56:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "DOGEUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.06553,
-   "netBps": 104.12,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
