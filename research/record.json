@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T05:51:45.320Z",
+ "generatedAt": "2026-11-13T06:06:54.367Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T05:51:45.263Z",
+  "lastMessageAt": "2026-11-13T06:06:53.534Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T05:51:00.000Z",
+   "lastEventAt": "2026-11-13T06:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -211,7 +211,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T05:51:00.000Z",
+   "lastEventAt": "2026-11-13T06:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -335,12 +335,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-13T05:05:57.321Z",
+   "lastEventAt": "2026-11-13T06:06:06.562Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794549600000-1794549600000-SOLUSDT-SHORT",
+   "at": "2026-11-13T06:00:07.966Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "SOLUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 78.52,
+   "netBps": 15.69,
+   "reason": null
+  },
   {
    "id": "res-1794542400000-1794543000000-XRPUSDT-SHORT",
    "at": "2026-11-13T04:10:04.265Z",
@@ -472,18 +484,6 @@
    "price": 1.0387,
    "netBps": -65.31,
    "reason": "time"
-  },
-  {
-   "id": "res-1794513600000-1794524100000-DOGEUSDT-SHORT",
-   "at": "2026-11-12T22:55:03.860Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "DOGEUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.06631,
-   "netBps": 6.56,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
