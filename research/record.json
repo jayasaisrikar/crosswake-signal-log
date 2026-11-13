@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T00:03:29.367Z",
+ "generatedAt": "2026-11-13T00:18:36.413Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T00:03:28.723Z",
+  "lastMessageAt": "2026-11-13T00:18:36.195Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -52,15 +52,15 @@
    "watch": [
     {
      "symbol": "AVAXUSDT",
-     "toHighBps": -672.66
+     "toHighBps": -769.32
     },
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1004.54
+     "toHighBps": -1038.59
     },
     {
      "symbol": "BNBUSDT",
-     "toHighBps": -1054.02
+     "toHighBps": -1353.95
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -86,15 +86,15 @@
    "watch": [
     {
      "symbol": "AVAXUSDT",
-     "toHighBps": -672.66
+     "toHighBps": -769.32
     },
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1004.54
+     "toHighBps": -1038.59
     },
     {
-     "symbol": "BNBUSDT",
-     "toHighBps": -1054.02
+     "symbol": "JUPUSDT",
+     "toHighBps": -1147.43
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -120,15 +120,15 @@
    "watch": [
     {
      "symbol": "AVAXUSDT",
-     "toHighBps": -672.66
+     "toHighBps": -769.32
     },
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1004.54
+     "toHighBps": -1038.59
     },
     {
      "symbol": "BNBUSDT",
-     "toHighBps": -1054.02
+     "toHighBps": -1353.95
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:03:00.000Z",
+   "lastEventAt": "2026-11-13T00:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T00:03:00.000Z",
+   "lastEventAt": "2026-11-13T00:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -217,8 +217,8 @@
     {
      "symbol": "BTCUSDT",
      "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 139,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": 160,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -226,8 +226,8 @@
     {
      "symbol": "ETHUSDT",
      "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 163,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": 182,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -235,8 +235,8 @@
     {
      "symbol": "BNBUSDT",
      "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 149,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": 170,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -244,17 +244,17 @@
     {
      "symbol": "SOLUSDT",
      "side": "short",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": -65,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -70,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
     },
     {
      "symbol": "XRPUSDT",
-     "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 48,
+     "side": "short",
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -185,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -262,8 +262,8 @@
     {
      "symbol": "DOGEUSDT",
      "side": "short",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": -180,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -197,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -271,8 +271,8 @@
     {
      "symbol": "ADAUSDT",
      "side": "short",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": -271,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -298,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -280,17 +280,17 @@
     {
      "symbol": "AVAXUSDT",
      "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 46,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": 48,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
     },
     {
      "symbol": "LINKUSDT",
-     "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 176,
+     "side": "short",
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -46,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -298,8 +298,8 @@
     {
      "symbol": "LTCUSDT",
      "side": "short",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": -50,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -53,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -307,8 +307,8 @@
     {
      "symbol": "DOTUSDT",
      "side": "short",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": -143,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": -394,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -316,8 +316,8 @@
     {
      "symbol": "TRXUSDT",
      "side": "long",
-     "since": "2026-11-12T00:00:00.000Z",
-     "markBps": 45,
+     "since": "2026-11-13T00:00:00.000Z",
+     "markBps": 57,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -325,7 +325,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-12T23:08:39.577Z",
+   "lastEventAt": "2026-11-13T00:05:10.002Z",
    "telegram": false,
    "executionEnabled": false
   }
