@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-13T12:10:23.431Z",
+ "generatedAt": "2026-11-13T12:25:31.902Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-13T12:10:22.646Z",
+  "lastMessageAt": "2026-11-13T12:25:31.100Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LTCUSDT",
-     "side": "SHORT",
-     "since": "2026-11-13T08:16:00.000Z",
-     "markBps": null,
-     "targetBps": 351.82,
-     "stopBps": 367.35,
-     "exitBy": "2026-11-13T12:16:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 126,
+    "trades": 127,
     "winRate": null,
-    "netExpectancyBps": -22.08,
+    "netExpectancyBps": -22.86,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T12:10:00.000Z",
+   "lastEventAt": "2026-11-13T12:25:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -193,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-13T12:10:00.000Z",
+   "lastEventAt": "2026-11-13T12:25:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -323,6 +313,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794556800000-1794557700000-LTCUSDT-SHORT-exit",
+   "at": "2026-11-13T12:16:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LTCUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 49.18,
+   "netBps": -120.79,
+   "reason": "time"
+  },
   {
    "id": "res-1794542400000-1794555600000-XRPUSDT-SHORT-exit",
    "at": "2026-11-13T11:41:00.000Z",
@@ -454,18 +456,6 @@
    "price": 80.41,
    "netBps": -236.79,
    "reason": "stop"
-  },
-  {
-   "id": "res-1794528000000-1794538800000-NEARUSDT-SHORT-exit",
-   "at": "2026-11-13T07:01:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "NEARUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 3.497,
-   "netBps": -259.12,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
