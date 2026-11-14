@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T23:28:31.238Z",
+ "generatedAt": "2026-11-14T23:43:39.123Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T23:28:31.164Z",
+  "lastMessageAt": "2026-11-14T23:43:38.452Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,7 +143,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "UNIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-14T23:41:00.000Z",
+     "markBps": null,
+     "targetBps": 658.51,
+     "stopBps": 633.38,
+     "exitBy": "2026-11-15T03:41:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 4,
     "winRate": null,
@@ -152,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T23:28:00.000Z",
+   "lastEventAt": "2026-11-14T23:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T23:28:00.000Z",
+   "lastEventAt": "2026-11-14T23:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -304,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1794686400000-1794699600000-UNIUSDT-SHORT",
+   "at": "2026-11-14T23:40:03.874Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 4.762,
+   "netBps": 4.36,
+   "reason": null
+  },
+  {
    "id": "res-1794679200000-1794679800000-DOGEUSDT-LONG-exit",
    "at": "2026-11-14T20:20:00.000Z",
    "engine": "residual-spot-v003-89f11b1593e6",
@@ -433,18 +455,6 @@
    "side": "short",
    "price": 48.26,
    "netBps": 90.28,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794628800000-1794634800000-ETHUSDT-SHORT-exit",
-   "at": "2026-11-14T09:41:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "ETHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1909.24,
-   "netBps": -85.63,
    "reason": "time"
   }
  ],
