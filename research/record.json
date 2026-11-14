@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T15:09:00.569Z",
+ "generatedAt": "2026-11-14T15:24:09.008Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T15:09:00.136Z",
+  "lastMessageAt": "2026-11-14T15:24:08.373Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -162,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T15:08:00.000Z",
+   "lastEventAt": "2026-11-14T15:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T15:08:00.000Z",
+   "lastEventAt": "2026-11-14T15:24:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +307,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-14T14:20:30.089Z",
+   "lastEventAt": "2026-11-14T15:20:41.729Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794664800000-1794669600000-XRPUSDT-SHORT",
+   "at": "2026-11-14T15:20:04.205Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 0.9815,
+   "netBps": 32.37,
+   "reason": null
+  },
   {
    "id": "res-1794657600000-1794664200000-XRPUSDT-SHORT",
    "at": "2026-11-14T13:50:04.829Z",
@@ -444,18 +456,6 @@
    "price": 635.56,
    "netBps": 1.25,
    "reason": null
-  },
-  {
-   "id": "res-1794571200000-1794579300000-BCHUSDT-SHORT-exit",
-   "at": "2026-11-13T18:16:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "BCHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 223.92,
-   "netBps": 96.62,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
