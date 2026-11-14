@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T18:10:41.682Z",
+ "generatedAt": "2026-11-14T18:25:49.636Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T18:10:40.742Z",
+  "lastMessageAt": "2026-11-14T18:25:49.133Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T18:10:00.000Z",
+   "lastEventAt": "2026-11-14T18:25:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,6 +173,15 @@
      "targetBps": 128.04,
      "stopBps": 198.54,
      "exitBy": "2026-11-14T21:36:00.000Z"
+    },
+    {
+     "symbol": "DOGEUSDT",
+     "side": "LONG",
+     "since": "2026-11-14T18:11:00.000Z",
+     "markBps": null,
+     "targetBps": 145.64,
+     "stopBps": 203.25,
+     "exitBy": "2026-11-14T22:11:00.000Z"
     }
    ],
    "stats": {
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T18:10:00.000Z",
+   "lastEventAt": "2026-11-14T18:25:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,7 +316,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-14T17:21:01.141Z",
+   "lastEventAt": "2026-11-14T18:21:09.175Z",
    "telegram": false,
    "executionEnabled": false
   }
