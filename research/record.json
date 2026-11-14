@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T23:43:39.123Z",
+ "generatedAt": "2026-11-14T23:58:47.927Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T23:43:38.452Z",
+  "lastMessageAt": "2026-11-14T23:58:46.841Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,15 @@
      "targetBps": 658.51,
      "stopBps": 633.38,
      "exitBy": "2026-11-15T03:41:00.000Z"
+    },
+    {
+     "symbol": "BNBUSDT",
+     "side": "SHORT",
+     "since": "2026-11-14T23:46:00.000Z",
+     "markBps": null,
+     "targetBps": 142.55,
+     "stopBps": 283.29,
+     "exitBy": "2026-11-15T03:46:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T23:43:00.000Z",
+   "lastEventAt": "2026-11-14T23:58:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T23:43:00.000Z",
+   "lastEventAt": "2026-11-14T23:58:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +323,18 @@
  ],
  "events": [
   {
+   "id": "res-1794686400000-1794699900000-BNBUSDT-SHORT",
+   "at": "2026-11-14T23:45:04.134Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "BNBUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 577.88,
+   "netBps": -9.6,
+   "reason": null
+  },
+  {
    "id": "res-1794686400000-1794699600000-UNIUSDT-SHORT",
    "at": "2026-11-14T23:40:03.874Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +464,6 @@
    "side": "short",
    "price": 0.777,
    "netBps": 3.84,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794628800000-1794635100000-LTCUSDT-SHORT-exit",
-   "at": "2026-11-14T09:46:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LTCUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 48.26,
-   "netBps": 90.28,
    "reason": "time"
   }
  ],
