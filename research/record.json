@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T17:25:14.904Z",
+ "generatedAt": "2026-11-14T17:40:23.799Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T17:25:14.833Z",
+  "lastMessageAt": "2026-11-14T17:40:23.111Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T17:25:00.000Z",
+   "lastEventAt": "2026-11-14T17:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -164,7 +164,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "XRPUSDT",
+     "side": "LONG",
+     "since": "2026-11-14T17:36:00.000Z",
+     "markBps": null,
+     "targetBps": 128.04,
+     "stopBps": 198.54,
+     "exitBy": "2026-11-14T21:36:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 0,
     "winRate": null,
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T17:25:00.000Z",
+   "lastEventAt": "2026-11-14T17:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -304,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1794672000000-1794677700000-XRPUSDT-LONG",
+   "at": "2026-11-14T17:35:04.088Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "long",
+   "price": 0.9634,
+   "netBps": 32.04,
+   "reason": null
+  },
+  {
    "id": "res-1794657600000-1794664200000-XRPUSDT-SHORT-exit",
    "at": "2026-11-14T15:31:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -433,18 +455,6 @@
    "side": "short",
    "price": 1897.8,
    "netBps": -2.32,
-   "reason": null
-  },
-  {
-   "id": "res-1794628800000-1794629700000-XRPUSDT-SHORT",
-   "at": "2026-11-14T04:15:05.082Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "XRPUSDT",
-   "market": "spot",
-   "side": "short",
-   "price": 0.9901,
-   "netBps": 24.18,
    "reason": null
   }
  ],
