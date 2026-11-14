@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T15:24:09.008Z",
+ "generatedAt": "2026-11-14T15:39:18.206Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T15:24:08.373Z",
+  "lastMessageAt": "2026-11-14T15:39:17.650Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-14T13:51:00.000Z",
-     "markBps": null,
-     "targetBps": 281.03,
-     "stopBps": 393.81,
-     "exitBy": "2026-11-14T17:51:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 3,
+    "trades": 4,
     "winRate": null,
-    "netExpectancyBps": 2.83,
+    "netExpectancyBps": 67.4,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T15:24:00.000Z",
+   "lastEventAt": "2026-11-14T15:39:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T15:24:00.000Z",
+   "lastEventAt": "2026-11-14T15:39:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,30 @@
  ],
  "events": [
   {
+   "id": "res-1794657600000-1794664200000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-14T15:31:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.970246,
+   "netBps": 261.12,
+   "reason": "target"
+  },
+  {
+   "id": "res-1794657600000-1794670200000-SOLUSDT-SHORT",
+   "at": "2026-11-14T15:30:03.920Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 73.6,
+   "netBps": -12.83,
+   "reason": null
+  },
+  {
    "id": "res-1794664800000-1794669600000-XRPUSDT-SHORT",
    "at": "2026-11-14T15:20:04.205Z",
    "engine": "residual-spot-v003-89f11b1593e6",
@@ -431,30 +445,6 @@
    "side": "short",
    "price": 0.9901,
    "netBps": 24.18,
-   "reason": null
-  },
-  {
-   "id": "res-1794600000000-1794604200000-BNBUSDT-SHORT-exit",
-   "at": "2026-11-14T01:11:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 630.53,
-   "netBps": 71.76,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794600000000-1794604200000-BNBUSDT-SHORT",
-   "at": "2026-11-13T21:10:03.979Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 635.56,
-   "netBps": 1.25,
    "reason": null
   }
  ],
