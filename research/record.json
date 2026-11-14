@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-14T04:04:15.215Z",
+ "generatedAt": "2026-11-14T04:19:23.456Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-14T04:04:14.522Z",
+  "lastMessageAt": "2026-11-14T04:19:22.825Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,7 +152,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T04:04:00.000Z",
+   "lastEventAt": "2026-11-14T04:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -164,7 +164,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "XRPUSDT",
+     "side": "SHORT",
+     "since": "2026-11-14T04:16:00.000Z",
+     "markBps": null,
+     "targetBps": 153.73,
+     "stopBps": 195.69,
+     "exitBy": "2026-11-14T08:16:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 9,
     "winRate": null,
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-14T04:04:00.000Z",
+   "lastEventAt": "2026-11-14T04:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -297,12 +307,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-14T03:05:41.384Z",
+   "lastEventAt": "2026-11-14T04:05:50.673Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794628800000-1794629700000-XRPUSDT-SHORT",
+   "at": "2026-11-14T04:15:05.082Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "XRPUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 0.9901,
+   "netBps": 24.18,
+   "reason": null
+  },
   {
    "id": "res-1794600000000-1794604200000-BNBUSDT-SHORT-exit",
    "at": "2026-11-14T01:11:00.000Z",
@@ -434,18 +456,6 @@
    "price": 1.041043,
    "netBps": 112.71,
    "reason": "target"
-  },
-  {
-   "id": "res-1794556800000-1794557700000-LTCUSDT-SHORT-exit",
-   "at": "2026-11-13T12:16:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LTCUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 49.18,
-   "netBps": -120.79,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
