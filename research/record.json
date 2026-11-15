@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T03:00:34.424Z",
+ "generatedAt": "2026-11-15T03:16:03.555Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-15T03:00:33.794Z",
+  "lastMessageAt": "2026-11-15T03:16:03.123Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "UNIUSDT",
-     "side": "SHORT",
-     "since": "2026-11-14T23:41:00.000Z",
-     "markBps": null,
-     "targetBps": 658.51,
-     "stopBps": 633.38,
-     "exitBy": "2026-11-15T03:41:00.000Z"
-    },
-    {
      "symbol": "LINKUSDT",
      "side": "SHORT",
      "since": "2026-11-15T00:06:00.000Z",
@@ -161,26 +152,17 @@
      "targetBps": 268.72,
      "stopBps": 470.16,
      "exitBy": "2026-11-15T04:06:00.000Z"
-    },
-    {
-     "symbol": "XRPUSDT",
-     "side": "SHORT",
-     "since": "2026-11-15T01:06:00.000Z",
-     "markBps": null,
-     "targetBps": 382.04,
-     "stopBps": 415.89,
-     "exitBy": "2026-11-15T05:06:00.000Z"
     }
    ],
    "stats": {
-    "trades": 5,
+    "trades": 7,
     "winRate": null,
-    "netExpectancyBps": 79.03,
+    "netExpectancyBps": -105.08,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T03:00:00.000Z",
+   "lastEventAt": "2026-11-15T03:15:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T03:00:00.000Z",
+   "lastEventAt": "2026-11-15T03:15:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -325,12 +307,36 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-15T02:05:33.662Z",
+   "lastEventAt": "2026-11-15T03:05:43.478Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794686400000-1794699600000-UNIUSDT-SHORT-exit",
+   "at": "2026-11-15T03:07:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 5.086,
+   "netBps": -686.94,
+   "reason": "stop"
+  },
+  {
+   "id": "res-1794700800000-1794704700000-XRPUSDT-SHORT-exit",
+   "at": "2026-11-15T03:01:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "XRPUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.9556,
+   "netBps": -443.76,
+   "reason": "stop"
+  },
   {
    "id": "res-1794700800000-1794704700000-XRPUSDT-SHORT-exit",
    "at": "2026-11-15T02:13:00.000Z",
@@ -449,30 +455,6 @@
    "side": "long",
    "price": 0.7285,
    "netBps": 30.64,
-   "reason": null
-  },
-  {
-   "id": "res-1794679200000-1794679800000-DOGEUSDT-LONG",
-   "at": "2026-11-14T18:10:04.481Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "DOGEUSDT",
-   "market": "spot",
-   "side": "long",
-   "price": 0.0602,
-   "netBps": 26.83,
-   "reason": null
-  },
-  {
-   "id": "res-1794672000000-1794677700000-XRPUSDT-LONG",
-   "at": "2026-11-14T17:35:04.088Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "XRPUSDT",
-   "market": "spot",
-   "side": "long",
-   "price": 0.9634,
-   "netBps": 32.04,
    "reason": null
   }
  ],
