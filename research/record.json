@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T14:37:15.807Z",
+ "generatedAt": "2026-11-15T14:52:24.118Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-15T14:37:15.051Z",
+  "lastMessageAt": "2026-11-15T14:52:23.352Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -154,15 +154,6 @@
      "exitBy": "2026-11-15T17:06:00.000Z"
     },
     {
-     "symbol": "ETHUSDT",
-     "side": "SHORT",
-     "since": "2026-11-15T13:06:00.000Z",
-     "markBps": null,
-     "targetBps": 204.12,
-     "stopBps": 416.12,
-     "exitBy": "2026-11-15T17:06:00.000Z"
-    },
-    {
      "symbol": "SOLUSDT",
      "side": "SHORT",
      "since": "2026-11-15T13:06:00.000Z",
@@ -173,14 +164,14 @@
     }
    ],
    "stats": {
-    "trades": 11,
+    "trades": 12,
     "winRate": null,
-    "netExpectancyBps": -136.96,
+    "netExpectancyBps": -110.05,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T14:37:00.000Z",
+   "lastEventAt": "2026-11-15T14:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T14:37:00.000Z",
+   "lastEventAt": "2026-11-15T14:52:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -331,6 +322,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794744000000-1794747900000-ETHUSDT-SHORT-exit",
+   "at": "2026-11-15T14:42:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ETHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1796.944166,
+   "netBps": 186.05,
+   "reason": "target"
+  },
   {
    "id": "res-1794744000000-1794747900000-BCHUSDT-SHORT",
    "at": "2026-11-15T13:05:03.882Z",
@@ -462,18 +465,6 @@
    "price": 591.65,
    "netBps": -8.01,
    "reason": null
-  },
-  {
-   "id": "res-1794700800000-1794701100000-LINKUSDT-SHORT-exit",
-   "at": "2026-11-15T04:06:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 9.116,
-   "netBps": -302.62,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
