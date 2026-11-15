@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T04:01:30.644Z",
+ "generatedAt": "2026-11-15T04:16:38.483Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-15T04:01:30.291Z",
+  "lastMessageAt": "2026-11-15T04:16:37.805Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LINKUSDT",
-     "side": "SHORT",
-     "since": "2026-11-15T00:06:00.000Z",
-     "markBps": null,
-     "targetBps": 268.72,
-     "stopBps": 470.16,
-     "exitBy": "2026-11-15T04:06:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 7,
+    "trades": 8,
     "winRate": null,
-    "netExpectancyBps": -105.08,
+    "netExpectancyBps": -129.77,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T04:01:00.000Z",
+   "lastEventAt": "2026-11-15T04:16:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T04:01:00.000Z",
+   "lastEventAt": "2026-11-15T04:16:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +297,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-15T03:05:43.478Z",
+   "lastEventAt": "2026-11-15T04:05:54.750Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794700800000-1794701100000-LINKUSDT-SHORT-exit",
+   "at": "2026-11-15T04:06:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "LINKUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 9.116,
+   "netBps": -302.62,
+   "reason": "time"
+  },
   {
    "id": "res-1794686400000-1794699600000-UNIUSDT-SHORT-exit",
    "at": "2026-11-15T03:07:00.000Z",
@@ -444,18 +446,6 @@
    "price": 0.9449,
    "netBps": -234.29,
    "reason": "stop"
-  },
-  {
-   "id": "res-1794679200000-1794679800000-SUIUSDT-LONG",
-   "at": "2026-11-14T18:10:04.481Z",
-   "engine": "residual-spot-v003-89f11b1593e6",
-   "kind": "signal",
-   "symbol": "SUIUSDT",
-   "market": "spot",
-   "side": "long",
-   "price": 0.7285,
-   "netBps": 30.64,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
