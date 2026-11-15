@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T07:33:26.037Z",
+ "generatedAt": "2026-11-15T07:48:34.185Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-15T07:33:25.207Z",
+  "lastMessageAt": "2026-11-15T07:48:33.663Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T07:33:00.000Z",
+   "lastEventAt": "2026-11-15T07:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +192,17 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "LTCUSDT",
+     "side": "SHORT",
+     "since": "2026-11-15T07:36:00.000Z",
+     "markBps": null,
+     "targetBps": 163.37,
+     "stopBps": 210,
+     "exitBy": "2026-11-15T11:36:00.000Z"
+    }
+   ],
    "stats": {
     "trades": 2,
     "winRate": null,
@@ -201,7 +211,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T07:33:00.000Z",
+   "lastEventAt": "2026-11-15T07:48:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -332,6 +342,18 @@
  ],
  "events": [
   {
+   "id": "res-1794722400000-1794728100000-LTCUSDT-SHORT",
+   "at": "2026-11-15T07:35:04.123Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "signal",
+   "symbol": "LTCUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 44.8,
+   "netBps": 17.5,
+   "reason": null
+  },
+  {
    "id": "res-1794715200000-1794725100000-ADAUSDT-SHORT",
    "at": "2026-11-15T06:45:03.893Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -461,18 +483,6 @@
    "side": "short",
    "price": 8.873,
    "netBps": -0.93,
-   "reason": null
-  },
-  {
-   "id": "res-1794686400000-1794699900000-BNBUSDT-SHORT",
-   "at": "2026-11-14T23:45:04.134Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 577.88,
-   "netBps": -9.6,
    "reason": null
   }
  ],
