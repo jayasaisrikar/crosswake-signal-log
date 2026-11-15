@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-15T09:34:39.937Z",
+ "generatedAt": "2026-11-15T09:49:48.103Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-15T09:34:39.521Z",
+  "lastMessageAt": "2026-11-15T09:49:47.923Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -180,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T09:34:00.000Z",
+   "lastEventAt": "2026-11-15T09:49:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,17 +192,7 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "LTCUSDT",
-     "side": "SHORT",
-     "since": "2026-11-15T07:36:00.000Z",
-     "markBps": null,
-     "targetBps": 163.37,
-     "stopBps": 210,
-     "exitBy": "2026-11-15T11:36:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
     "trades": 2,
     "winRate": null,
@@ -211,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-15T09:34:00.000Z",
+   "lastEventAt": "2026-11-15T09:49:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -341,6 +331,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794722400000-1794728100000-LTCUSDT-SHORT-exit",
+   "at": "2026-11-15T09:43:00.000Z",
+   "engine": "residual-spot-v003-89f11b1593e6",
+   "kind": "exit",
+   "symbol": "LTCUSDT",
+   "market": "spot",
+   "side": "short",
+   "price": 45.78,
+   "netBps": -242.47,
+   "reason": "stop"
+  },
   {
    "id": "res-1794722400000-1794728100000-LTCUSDT-SHORT",
    "at": "2026-11-15T07:35:04.123Z",
@@ -472,18 +474,6 @@
    "price": 572.214702,
    "netBps": 125.54,
    "reason": "target"
-  },
-  {
-   "id": "res-1794700800000-1794701100000-LINKUSDT-SHORT",
-   "at": "2026-11-15T00:05:03.894Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "LINKUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 8.873,
-   "netBps": -0.93,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
