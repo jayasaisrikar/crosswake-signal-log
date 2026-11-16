@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-16T16:06:44.363Z",
+ "generatedAt": "2026-11-16T16:21:52.486Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-16T16:06:44.131Z",
+  "lastMessageAt": "2026-11-16T16:21:52.424Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "DOTUSDT",
-     "side": "SHORT",
-     "since": "2026-11-16T12:11:00.000Z",
-     "markBps": null,
-     "targetBps": 354.89,
-     "stopBps": 510.62,
-     "exitBy": "2026-11-16T16:11:00.000Z"
-    },
-    {
      "symbol": "ETHUSDT",
      "side": "SHORT",
      "since": "2026-11-16T14:26:00.000Z",
@@ -164,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 16,
+    "trades": 17,
     "winRate": null,
-    "netExpectancyBps": -53.96,
+    "netExpectancyBps": -48.31,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-16T16:06:00.000Z",
+   "lastEventAt": "2026-11-16T16:21:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-16T16:06:00.000Z",
+   "lastEventAt": "2026-11-16T16:21:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,12 +307,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-16T15:07:34.836Z",
+   "lastEventAt": "2026-11-16T16:07:42.875Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794830400000-1794831000000-DOTUSDT-SHORT-exit",
+   "at": "2026-11-16T16:11:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "DOTUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.723,
+   "netBps": 42.04,
+   "reason": "time"
+  },
   {
    "id": "res-1794816000000-1794829500000-SOLUSDT-SHORT-exit",
    "at": "2026-11-16T15:46:00.000Z",
@@ -452,18 +455,6 @@
    "side": "short",
    "price": 1834.71,
    "netBps": 4.54,
-   "reason": null
-  },
-  {
-   "id": "res-1794744000000-1794747900000-SOLUSDT-SHORT",
-   "at": "2026-11-15T13:05:03.882Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 72.91,
-   "netBps": 0.94,
    "reason": null
   }
  ],
