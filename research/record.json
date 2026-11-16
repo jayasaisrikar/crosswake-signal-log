@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-16T12:03:54.271Z",
+ "generatedAt": "2026-11-16T12:19:03.300Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-16T12:03:54.082Z",
+  "lastMessageAt": "2026-11-16T12:19:02.323Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,15 @@
      "targetBps": 234.11,
      "stopBps": 462.14,
      "exitBy": "2026-11-16T15:46:00.000Z"
+    },
+    {
+     "symbol": "DOTUSDT",
+     "side": "SHORT",
+     "since": "2026-11-16T12:11:00.000Z",
+     "markBps": null,
+     "targetBps": 354.89,
+     "stopBps": 510.62,
+     "exitBy": "2026-11-16T16:11:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-16T12:03:00.000Z",
+   "lastEventAt": "2026-11-16T12:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-16T12:03:00.000Z",
+   "lastEventAt": "2026-11-16T12:18:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -307,12 +316,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-16T11:06:49.795Z",
+   "lastEventAt": "2026-11-16T12:07:01.186Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1794830400000-1794831000000-DOTUSDT-SHORT",
+   "at": "2026-11-16T12:10:03.909Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "DOTUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.7281,
+   "netBps": -3.73,
+   "reason": null
+  },
   {
    "id": "res-1794816000000-1794829500000-SOLUSDT-SHORT",
    "at": "2026-11-16T11:45:03.887Z",
@@ -443,18 +464,6 @@
    "side": "short",
    "price": 7.255,
    "netBps": -72.84,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794715200000-1794724500000-BNBUSDT-SHORT-exit",
-   "at": "2026-11-15T10:36:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "BNBUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 597.47,
-   "netBps": -119.15,
    "reason": "time"
   }
  ],
