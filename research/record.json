@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T04:27:57.998Z",
+ "generatedAt": "2026-11-17T04:43:05.443Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-17T04:27:57.441Z",
+  "lastMessageAt": "2026-11-17T04:43:05.276Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "SOLUSDT",
-     "side": "SHORT",
-     "since": "2026-11-17T00:41:00.000Z",
-     "markBps": null,
-     "targetBps": 238.12,
-     "stopBps": 472.68,
-     "exitBy": "2026-11-17T04:41:00.000Z"
-    },
-    {
      "symbol": "UNIUSDT",
      "side": "SHORT",
      "since": "2026-11-17T02:46:00.000Z",
@@ -173,14 +164,14 @@
     }
    ],
    "stats": {
-    "trades": 18,
+    "trades": 19,
     "winRate": null,
-    "netExpectancyBps": -45.06,
+    "netExpectancyBps": -53.98,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T04:27:00.000Z",
+   "lastEventAt": "2026-11-17T04:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T04:27:00.000Z",
+   "lastEventAt": "2026-11-17T04:43:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -331,6 +322,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1794873600000-1794876000000-SOLUSDT-SHORT-exit",
+   "at": "2026-11-17T04:41:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "SOLUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 72.94,
+   "netBps": -214.55,
+   "reason": "time"
+  },
   {
    "id": "res-1794873600000-1794883800000-LTCUSDT-SHORT",
    "at": "2026-11-17T02:50:03.881Z",
@@ -462,18 +465,6 @@
    "price": 0.9705,
    "netBps": 14.53,
    "reason": null
-  },
-  {
-   "id": "res-1794744000000-1794747900000-BCHUSDT-SHORT-exit",
-   "at": "2026-11-15T17:06:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "BCHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 207.86,
-   "netBps": 138.91,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
