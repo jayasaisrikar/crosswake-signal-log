@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T10:15:51.300Z",
+ "generatedAt": "2026-11-17T10:30:58.976Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-17T10:15:50.819Z",
+  "lastMessageAt": "2026-11-17T10:30:58.275Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "ETHUSDT",
-     "side": "SHORT",
-     "since": "2026-11-17T08:31:00.000Z",
-     "markBps": null,
-     "targetBps": 162.35,
-     "stopBps": 433.53,
-     "exitBy": "2026-11-17T12:31:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 21,
+    "trades": 22,
     "winRate": null,
-    "netExpectancyBps": -57.51,
+    "netExpectancyBps": -48.31,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T10:15:00.000Z",
+   "lastEventAt": "2026-11-17T10:30:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T10:15:00.000Z",
+   "lastEventAt": "2026-11-17T10:30:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794902400000-1794904200000-ETHUSDT-SHORT-exit",
+   "at": "2026-11-17T10:25:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ETHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1794.597387,
+   "netBps": 145.04,
+   "reason": "target"
+  },
+  {
    "id": "res-1794902400000-1794904200000-ETHUSDT-SHORT",
    "at": "2026-11-17T08:30:03.922Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 1817.28,
    "netBps": 5.39,
-   "reason": null
-  },
-  {
-   "id": "res-1794830400000-1794831000000-DOTUSDT-SHORT",
-   "at": "2026-11-16T12:10:03.909Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "DOTUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.7281,
-   "netBps": -3.73,
    "reason": null
   }
  ],
