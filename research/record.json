@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T02:42:06.694Z",
+ "generatedAt": "2026-11-17T02:57:14.476Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-17T02:42:06.520Z",
+  "lastMessageAt": "2026-11-17T02:57:14.008Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,24 @@
      "targetBps": 238.12,
      "stopBps": 472.68,
      "exitBy": "2026-11-17T04:41:00.000Z"
+    },
+    {
+     "symbol": "UNIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-17T02:46:00.000Z",
+     "markBps": null,
+     "targetBps": 492.18,
+     "stopBps": 663.51,
+     "exitBy": "2026-11-17T06:46:00.000Z"
+    },
+    {
+     "symbol": "LTCUSDT",
+     "side": "SHORT",
+     "since": "2026-11-17T02:51:00.000Z",
+     "markBps": null,
+     "targetBps": 277.5,
+     "stopBps": 437.46,
+     "exitBy": "2026-11-17T06:51:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T02:42:00.000Z",
+   "lastEventAt": "2026-11-17T02:57:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T02:42:00.000Z",
+   "lastEventAt": "2026-11-17T02:57:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +332,30 @@
  ],
  "events": [
   {
+   "id": "res-1794873600000-1794883800000-LTCUSDT-SHORT",
+   "at": "2026-11-17T02:50:03.881Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "LTCUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 44.68,
+   "netBps": 7.15,
+   "reason": null
+  },
+  {
+   "id": "res-1794873600000-1794883500000-UNIUSDT-SHORT",
+   "at": "2026-11-17T02:45:03.839Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 5.163,
+   "netBps": -13.68,
+   "reason": null
+  },
+  {
    "id": "res-1794873600000-1794876000000-SOLUSDT-SHORT",
    "at": "2026-11-17T00:40:04.833Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -432,30 +474,6 @@
    "price": 207.86,
    "netBps": 138.91,
    "reason": "time"
-  },
-  {
-   "id": "res-1794744000000-1794747900000-SOLUSDT-SHORT-exit",
-   "at": "2026-11-15T17:06:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 71.28,
-   "netBps": 205.04,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794744000000-1794747900000-ETHUSDT-SHORT-exit",
-   "at": "2026-11-15T14:42:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "ETHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1796.944166,
-   "netBps": 186.05,
-   "reason": "target"
   }
  ],
  "digestLastPostAt": "2026-11-12T04:05:06.548Z"
