@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T17:50:16.298Z",
+ "generatedAt": "2026-11-17T18:05:24.040Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-17T17:50:15.679Z",
+  "lastMessageAt": "2026-11-17T18:05:23.133Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -152,6 +152,15 @@
      "targetBps": 227.02,
      "stopBps": 467.79,
      "exitBy": "2026-11-17T21:46:00.000Z"
+    },
+    {
+     "symbol": "BNBUSDT",
+     "side": "SHORT",
+     "since": "2026-11-17T17:51:00.000Z",
+     "markBps": null,
+     "targetBps": 146.28,
+     "stopBps": 314.85,
+     "exitBy": "2026-11-17T21:51:00.000Z"
     }
    ],
    "stats": {
@@ -162,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T17:50:00.000Z",
+   "lastEventAt": "2026-11-17T18:05:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T17:50:00.000Z",
+   "lastEventAt": "2026-11-17T18:05:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
