@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-17T22:53:10.627Z",
+ "generatedAt": "2026-11-17T23:08:18.423Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-17T22:53:09.641Z",
+  "lastMessageAt": "2026-11-17T23:08:18.090Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "ETHUSDT",
-     "side": "SHORT",
-     "since": "2026-11-17T18:56:00.000Z",
-     "markBps": null,
-     "targetBps": 192.58,
-     "stopBps": 439.98,
-     "exitBy": "2026-11-17T22:56:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 24,
+    "trades": 25,
     "winRate": null,
-    "netExpectancyBps": -53.88,
+    "netExpectancyBps": -58.66,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T22:53:00.000Z",
+   "lastEventAt": "2026-11-17T23:08:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-17T22:53:00.000Z",
+   "lastEventAt": "2026-11-17T23:08:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +304,18 @@
  ],
  "events": [
   {
+   "id": "res-1794931200000-1794941700000-ETHUSDT-SHORT-exit",
+   "at": "2026-11-17T22:56:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "ETHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 1816.69,
+   "netBps": -173.28,
+   "reason": "time"
+  },
+  {
    "id": "res-1794931200000-1794937800000-BNBUSDT-SHORT-exit",
    "at": "2026-11-17T21:51:00.000Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +445,6 @@
    "side": "short",
    "price": 44.68,
    "netBps": 7.15,
-   "reason": null
-  },
-  {
-   "id": "res-1794873600000-1794883500000-UNIUSDT-SHORT",
-   "at": "2026-11-17T02:45:03.839Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "UNIUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 5.163,
-   "netBps": -13.68,
    "reason": null
   }
  ],
