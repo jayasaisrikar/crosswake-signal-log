@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T14:46:35.990Z",
+ "generatedAt": "2026-11-18T15:01:45.031Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T14:46:35.707Z",
+  "lastMessageAt": "2026-11-18T15:01:44.901Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -162,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T14:46:00.000Z",
+   "lastEventAt": "2026-11-18T15:01:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T14:46:00.000Z",
+   "lastEventAt": "2026-11-18T15:01:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -314,6 +314,18 @@
  ],
  "events": [
   {
+   "id": "res-1795003200000-1795013400000-DOGEUSDT-SHORT",
+   "at": "2026-11-18T14:50:03.953Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "DOGEUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.05909,
+   "netBps": -6.47,
+   "reason": null
+  },
+  {
    "id": "res-1795003200000-1795013100000-DOGEUSDT-SHORT",
    "at": "2026-11-18T14:45:04.543Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -443,18 +455,6 @@
    "side": "short",
    "price": 591.42,
    "netBps": -76.22,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794931200000-1794937500000-DOGEUSDT-SHORT-exit",
-   "at": "2026-11-17T21:46:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "DOGEUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.0594,
-   "netBps": -154.25,
    "reason": "time"
   }
  ],
