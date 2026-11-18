@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T19:04:15.319Z",
+ "generatedAt": "2026-11-18T19:19:23.535Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T19:04:14.592Z",
+  "lastMessageAt": "2026-11-18T19:19:23.041Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -161,6 +161,15 @@
      "targetBps": 336.08,
      "stopBps": 488.63,
      "exitBy": "2026-11-18T20:16:00.000Z"
+    },
+    {
+     "symbol": "SUIUSDT",
+     "side": "SHORT",
+     "since": "2026-11-18T19:06:00.000Z",
+     "markBps": null,
+     "targetBps": 390.91,
+     "stopBps": 531.47,
+     "exitBy": "2026-11-18T23:06:00.000Z"
     }
    ],
    "stats": {
@@ -171,7 +180,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T19:04:00.000Z",
+   "lastEventAt": "2026-11-18T19:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +201,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T19:04:00.000Z",
+   "lastEventAt": "2026-11-18T19:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,12 +325,24 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-18T18:08:14.150Z",
+   "lastEventAt": "2026-11-18T19:08:25.851Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1795017600000-1795028700000-SUIUSDT-SHORT",
+   "at": "2026-11-18T19:05:04.088Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "SUIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.7211,
+   "netBps": 2.95,
+   "reason": null
+  },
   {
    "id": "res-1795003200000-1795013100000-ADAUSDT-SHORT-exit",
    "at": "2026-11-18T18:46:00.000Z",
@@ -453,18 +474,6 @@
    "price": 74.92,
    "netBps": -95.38,
    "reason": "time"
-  },
-  {
-   "id": "res-1794960000000-1794968700000-NEARUSDT-SHORT",
-   "at": "2026-11-18T02:25:03.990Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "NEARUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 3.388,
-   "netBps": -8.47,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-18T16:05:15.308Z"
