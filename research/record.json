@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T02:25:02.241Z",
+ "generatedAt": "2026-11-18T02:40:10.147Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T02:25:02.061Z",
+  "lastMessageAt": "2026-11-18T02:40:09.456Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -25,7 +25,7 @@
      "symbol": "SOLUSDT",
      "side": "short",
      "since": "2026-11-18T00:15:00.000Z",
-     "markBps": 0.49,
+     "markBps": 0.04,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -162,6 +162,15 @@
      "targetBps": 246.15,
      "stopBps": 485.81,
      "exitBy": "2026-11-18T06:16:00.000Z"
+    },
+    {
+     "symbol": "NEARUSDT",
+     "side": "SHORT",
+     "since": "2026-11-18T02:26:00.000Z",
+     "markBps": null,
+     "targetBps": 539.02,
+     "stopBps": 739.67,
+     "exitBy": "2026-11-18T06:26:00.000Z"
     }
    ],
    "stats": {
@@ -172,7 +181,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T02:24:00.000Z",
+   "lastEventAt": "2026-11-18T02:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -193,7 +202,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T02:24:00.000Z",
+   "lastEventAt": "2026-11-18T02:40:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -324,6 +333,18 @@
  ],
  "events": [
   {
+   "id": "res-1794960000000-1794968700000-NEARUSDT-SHORT",
+   "at": "2026-11-18T02:25:03.990Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "signal",
+   "symbol": "NEARUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 3.388,
+   "netBps": -8.47,
+   "reason": null
+  },
+  {
    "id": "res-1794960000000-1794968100000-SOLUSDT-SHORT",
    "at": "2026-11-18T02:15:04.052Z",
    "engine": "catchdown-perp-v004-af40d0be5dfb",
@@ -453,18 +474,6 @@
    "side": "short",
    "price": 5.264,
    "netBps": -199.79,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794873600000-1794876000000-SOLUSDT-SHORT-exit",
-   "at": "2026-11-17T04:41:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 72.94,
-   "netBps": -214.55,
    "reason": "time"
   }
  ],
