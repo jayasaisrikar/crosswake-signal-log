@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T20:04:47.420Z",
+ "generatedAt": "2026-11-18T20:19:55.203Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T20:04:47.304Z",
+  "lastMessageAt": "2026-11-18T20:19:54.719Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,24 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "DOGEUSDT",
-     "side": "SHORT",
-     "since": "2026-11-18T16:11:00.000Z",
-     "markBps": null,
-     "targetBps": 239.46,
-     "stopBps": 458.32,
-     "exitBy": "2026-11-18T20:11:00.000Z"
-    },
-    {
-     "symbol": "BCHUSDT",
-     "side": "SHORT",
-     "since": "2026-11-18T16:16:00.000Z",
-     "markBps": null,
-     "targetBps": 336.08,
-     "stopBps": 488.63,
-     "exitBy": "2026-11-18T20:16:00.000Z"
-    },
-    {
      "symbol": "SUIUSDT",
      "side": "SHORT",
      "since": "2026-11-18T19:06:00.000Z",
@@ -173,14 +155,14 @@
     }
    ],
    "stats": {
-    "trades": 29,
+    "trades": 31,
     "winRate": null,
-    "netExpectancyBps": -54.25,
+    "netExpectancyBps": -52.43,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T20:04:00.000Z",
+   "lastEventAt": "2026-11-18T20:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T20:04:00.000Z",
+   "lastEventAt": "2026-11-18T20:19:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -325,12 +307,36 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-18T19:08:25.851Z",
+   "lastEventAt": "2026-11-18T20:08:35.011Z",
    "telegram": false,
    "executionEnabled": false
   }
  ],
  "events": [
+  {
+   "id": "res-1795017600000-1795018500000-BCHUSDT-SHORT-exit",
+   "at": "2026-11-18T20:16:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "BCHUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 206.49,
+   "netBps": -31.04,
+   "reason": "time"
+  },
+  {
+   "id": "res-1795017600000-1795018200000-DOGEUSDT-SHORT-exit",
+   "at": "2026-11-18T20:11:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "DOGEUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.0587,
+   "netBps": -21.11,
+   "reason": "time"
+  },
   {
    "id": "res-1795017600000-1795028700000-SUIUSDT-SHORT",
    "at": "2026-11-18T19:05:04.088Z",
@@ -450,31 +456,7 @@
    "price": 0.9974,
    "netBps": 11.38,
    "reason": null
-  },
-  {
-   "id": "res-1794960000000-1794968700000-NEARUSDT-SHORT-exit",
-   "at": "2026-11-18T06:26:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "NEARUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 3.414,
-   "netBps": -83.83,
-   "reason": "time"
-  },
-  {
-   "id": "res-1794960000000-1794968100000-SOLUSDT-SHORT-exit",
-   "at": "2026-11-18T06:16:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "SOLUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 74.92,
-   "netBps": -95.38,
-   "reason": "time"
   }
  ],
- "digestLastPostAt": "2026-11-18T16:05:15.308Z"
+ "digestLastPostAt": "2026-11-18T20:05:08.240Z"
 }
