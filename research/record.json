@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T22:51:09.625Z",
+ "generatedAt": "2026-11-18T23:06:17.210Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T22:51:09.221Z",
+  "lastMessageAt": "2026-11-18T23:06:16.659Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -145,15 +145,6 @@
    "regimeOn": null,
    "positions": [
     {
-     "symbol": "SUIUSDT",
-     "side": "SHORT",
-     "since": "2026-11-18T19:06:00.000Z",
-     "markBps": null,
-     "targetBps": 390.91,
-     "stopBps": 531.47,
-     "exitBy": "2026-11-18T23:06:00.000Z"
-    },
-    {
      "symbol": "ETHUSDT",
      "side": "SHORT",
      "since": "2026-11-18T21:31:00.000Z",
@@ -173,14 +164,14 @@
     }
    ],
    "stats": {
-    "trades": 31,
+    "trades": 32,
     "winRate": null,
-    "netExpectancyBps": -52.43,
+    "netExpectancyBps": -47.74,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T22:51:00.000Z",
+   "lastEventAt": "2026-11-18T23:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -201,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T22:51:00.000Z",
+   "lastEventAt": "2026-11-18T23:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -331,6 +322,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1795017600000-1795028700000-SUIUSDT-SHORT-exit",
+   "at": "2026-11-18T23:06:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "SUIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 0.7123,
+   "netBps": 97.81,
+   "reason": "time"
+  },
   {
    "id": "res-1795032000000-1795037400000-ETHUSDT-SHORT",
    "at": "2026-11-18T21:30:03.900Z",
@@ -462,18 +465,6 @@
    "price": 0.1524,
    "netBps": -16,
    "reason": null
-  },
-  {
-   "id": "res-1794988800000-1794993600000-XRPUSDT-SHORT-exit",
-   "at": "2026-11-18T13:21:00.000Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "exit",
-   "symbol": "XRPUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 0.9852,
-   "netBps": 114.23,
-   "reason": "time"
   }
  ],
  "digestLastPostAt": "2026-11-18T20:05:08.240Z"
