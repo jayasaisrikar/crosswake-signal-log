@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T00:23:57.924Z",
+ "generatedAt": "2026-11-18T00:39:06.138Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T00:23:56.986Z",
+  "lastMessageAt": "2026-11-18T00:39:05.383Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -20,7 +20,17 @@
    "instrument": "outright",
    "liveSince": "2026-10-09T00:00:00.000Z",
    "regimeOn": null,
-   "positions": [],
+   "positions": [
+    {
+     "symbol": "SOLUSDT",
+     "side": "short",
+     "since": "2026-11-18T00:15:00.000Z",
+     "markBps": -0.59,
+     "targetBps": null,
+     "stopBps": null,
+     "exitBy": null
+    }
+   ],
    "stats": {
     "trades": 4,
     "winRate": 0,
@@ -152,7 +162,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T00:23:00.000Z",
+   "lastEventAt": "2026-11-18T00:39:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -173,7 +183,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T00:23:00.000Z",
+   "lastEventAt": "2026-11-18T00:39:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
