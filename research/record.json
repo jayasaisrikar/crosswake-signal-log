@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T04:56:18.408Z",
+ "generatedAt": "2026-11-18T05:11:26.111Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T04:56:18.122Z",
+  "lastMessageAt": "2026-11-18T05:11:25.562Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -171,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T04:56:00.000Z",
+   "lastEventAt": "2026-11-18T05:11:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T04:56:00.000Z",
+   "lastEventAt": "2026-11-18T05:11:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -316,7 +316,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-18T04:05:52.042Z",
+   "lastEventAt": "2026-11-18T05:06:03.015Z",
    "telegram": false,
    "executionEnabled": false
   }
