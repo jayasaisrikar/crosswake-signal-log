@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-18T23:51:40.682Z",
+ "generatedAt": "2026-11-19T00:06:48.663Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-18T23:51:39.951Z",
+  "lastMessageAt": "2026-11-19T00:06:48.391Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -52,15 +52,15 @@
    "watch": [
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1257.09
+     "toHighBps": -1211.69
     },
     {
-     "symbol": "AAVEUSDT",
-     "toHighBps": -1629.53
+     "symbol": "ATOMUSDT",
+     "toHighBps": -1617.27
     },
     {
-     "symbol": "XLMUSDT",
-     "toHighBps": -1786.54
+     "symbol": "THETAUSDT",
+     "toHighBps": -1802.36
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -86,15 +86,15 @@
    "watch": [
     {
      "symbol": "JUPUSDT",
-     "toHighBps": -680.37
+     "toHighBps": -157.42
     },
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1257.09
+     "toHighBps": -1211.69
     },
     {
-     "symbol": "AAVEUSDT",
-     "toHighBps": -1629.53
+     "symbol": "ATOMUSDT",
+     "toHighBps": -1617.27
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -120,15 +120,15 @@
    "watch": [
     {
      "symbol": "TRXUSDT",
-     "toHighBps": -1257.09
+     "toHighBps": -1211.69
     },
     {
-     "symbol": "AAVEUSDT",
-     "toHighBps": -1629.53
+     "symbol": "ATOMUSDT",
+     "toHighBps": -1617.27
     },
     {
-     "symbol": "XLMUSDT",
-     "toHighBps": -1786.54
+     "symbol": "THETAUSDT",
+     "toHighBps": -1802.36
     }
    ],
    "lastEventAt": "2026-11-06T00:00:00.000Z",
@@ -171,7 +171,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T23:51:00.000Z",
+   "lastEventAt": "2026-11-19T00:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -192,7 +192,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-18T23:51:00.000Z",
+   "lastEventAt": "2026-11-19T00:06:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -208,8 +208,8 @@
     {
      "symbol": "BTCUSDT",
      "side": "long",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": 136,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": 148,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -217,8 +217,8 @@
     {
      "symbol": "ETHUSDT",
      "side": "long",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": 164,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": 172,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -226,8 +226,8 @@
     {
      "symbol": "BNBUSDT",
      "side": "long",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": 212,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": 216,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -235,8 +235,8 @@
     {
      "symbol": "SOLUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -76,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -69,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -244,8 +244,8 @@
     {
      "symbol": "XRPUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -72,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -64,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -253,8 +253,8 @@
     {
      "symbol": "DOGEUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -75,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -67,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -262,8 +262,8 @@
     {
      "symbol": "ADAUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -308,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -301,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -271,8 +271,8 @@
     {
      "symbol": "AVAXUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -20,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -17,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -280,8 +280,8 @@
     {
      "symbol": "LINKUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -21,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -18,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -289,8 +289,8 @@
     {
      "symbol": "LTCUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -71,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -64,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -298,8 +298,8 @@
     {
      "symbol": "DOTUSDT",
      "side": "short",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": -305,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": -300,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -307,8 +307,8 @@
     {
      "symbol": "TRXUSDT",
      "side": "long",
-     "since": "2026-11-18T00:00:00.000Z",
-     "markBps": 147,
+     "since": "2026-11-19T00:00:00.000Z",
+     "markBps": 157,
      "targetBps": null,
      "stopBps": null,
      "exitBy": null
@@ -316,7 +316,7 @@
    ],
    "stats": null,
    "watch": [],
-   "lastEventAt": "2026-11-18T23:09:02.980Z",
+   "lastEventAt": "2026-11-19T00:05:09.613Z",
    "telegram": false,
    "executionEnabled": false
   }
@@ -467,5 +467,5 @@
    "reason": null
   }
  ],
- "digestLastPostAt": "2026-11-18T20:05:08.240Z"
+ "digestLastPostAt": "2026-11-19T00:05:13.382Z"
 }
