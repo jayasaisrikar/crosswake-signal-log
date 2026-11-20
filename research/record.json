@@ -1,10 +1,10 @@
 {
  "version": 1,
- "generatedAt": "2026-11-20T01:21:43.679Z",
+ "generatedAt": "2026-11-20T01:36:51.786Z",
  "executionEnabled": false,
  "collector": {
   "connected": true,
-  "lastMessageAt": "2026-11-20T01:21:42.993Z",
+  "lastMessageAt": "2026-11-20T01:36:51.353Z",
   "symbols": [
    "BTCUSDT",
    "ETHUSDT",
@@ -143,26 +143,16 @@
    "instrument": "outright",
    "liveSince": null,
    "regimeOn": null,
-   "positions": [
-    {
-     "symbol": "UNIUSDT",
-     "side": "SHORT",
-     "since": "2026-11-19T21:26:00.000Z",
-     "markBps": null,
-     "targetBps": 602.64,
-     "stopBps": 636.24,
-     "exitBy": "2026-11-20T01:26:00.000Z"
-    }
-   ],
+   "positions": [],
    "stats": {
-    "trades": 37,
+    "trades": 38,
     "winRate": null,
-    "netExpectancyBps": -32.81,
+    "netExpectancyBps": -32.34,
     "profitFactor": null,
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-20T01:21:00.000Z",
+   "lastEventAt": "2026-11-20T01:36:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -183,7 +173,7 @@
     "medianBps": null
    },
    "watch": [],
-   "lastEventAt": "2026-11-20T01:21:00.000Z",
+   "lastEventAt": "2026-11-20T01:36:00.000Z",
    "telegram": false,
    "executionEnabled": false
   },
@@ -313,6 +303,18 @@
   }
  ],
  "events": [
+  {
+   "id": "res-1795118400000-1795123500000-UNIUSDT-SHORT-exit",
+   "at": "2026-11-20T01:26:00.000Z",
+   "engine": "catchdown-perp-v004-af40d0be5dfb",
+   "kind": "exit",
+   "symbol": "UNIUSDT",
+   "market": "usdm",
+   "side": "short",
+   "price": 4.952,
+   "netBps": -15.25,
+   "reason": "time"
+  },
   {
    "id": "res-1795104000000-1795116900000-BCHUSDT-SHORT-exit",
    "at": "2026-11-19T23:36:00.000Z",
@@ -444,18 +446,6 @@
    "price": 0.7123,
    "netBps": 97.81,
    "reason": "time"
-  },
-  {
-   "id": "res-1795032000000-1795037400000-ETHUSDT-SHORT",
-   "at": "2026-11-18T21:30:03.900Z",
-   "engine": "catchdown-perp-v004-af40d0be5dfb",
-   "kind": "signal",
-   "symbol": "ETHUSDT",
-   "market": "usdm",
-   "side": "short",
-   "price": 1760.88,
-   "netBps": 4.79,
-   "reason": null
   }
  ],
  "digestLastPostAt": "2026-11-20T00:05:08.903Z"
